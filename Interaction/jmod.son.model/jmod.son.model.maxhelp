@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
-		"rect" : [ 25.0, 69.0, 703.0, 585.0 ],
+		"rect" : [ 25.0, 69.0, 640.0, 417.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -71,14 +71,14 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@name", "jmod.son.model", "@description", "a brief explanation" ],
+					"args" : [ "@name", "jmod.moduleName", "@description", "a brief explanation" ],
 					"bgmode" : 1,
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 703.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 640.0, 70.0 ]
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 456.0, 74.0, 19.0 ],
+					"patching_rect" : [ 32.0, 311.0, 74.0, 19.0 ],
 					"text" : "loadmess set"
 				}
 
@@ -106,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 476.0, 192.0, 17.0 ],
-					"text" : "/module_name /0.1"
+					"patching_rect" : [ 31.0, 331.0, 192.0, 17.0 ],
+					"text" : "/view/highlight \"0\""
 				}
 
 			}
@@ -127,16 +127,16 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/model" ],
+					"args" : [ "/template" ],
 					"id" : "obj-8",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "jmod.son.model.maxpat",
+					"name" : "jmod.template.control.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 232.0, 450.0, 210.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 450.0, 210.0 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 237.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -153,7 +153,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 686.0, 75.0, 443.0, 449.0 ],
@@ -175,6 +175,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -191,7 +192,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "jmod.son.model" ],
+									"args" : [ "jmod.input~" ],
 									"id" : "obj-2",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.preset_params.maxpat",
@@ -215,7 +216,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 491.0, 300.0, 172.0, 24.0 ],
+					"patching_rect" : [ 410.0, 255.0, 172.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -243,7 +244,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 200.0, 140.0, 19.0 ],
+					"patching_rect" : [ 30.0, 215.0, 140.0, 19.0 ],
 					"text" : "r jmod.moduleName.help"
 				}
 
@@ -272,7 +273,7 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 39.5, 458.5, 213.5, 458.5 ],
+					"midpoints" : [ 39.5, 318.5, 213.5, 318.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -281,91 +282,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jmod.son.model.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Interaction/jmod.son.model",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jalg.son.model.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Interaction/jmod.son.model",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "index.xml",
-				"bootpath" : "/Applications/Max6/Cycling '74/3rdParty/RTcmix-all-051612/pkg/osx/RTcmix-Intel-ApplicationsDir.pmdoc",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/3rdParty/RTcmix-all-051612/pkg/osx/RTcmix-Intel-ApplicationsDir.pmdoc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f0.duplicates_in_coll.pat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Required_externals/f0",
-				"patcherrelativepath" : "../../Required_externals/f0",
-				"type" : "maxb",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f0.s==.pat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Required_externals/f0",
-				"patcherrelativepath" : "../../Required_externals/f0",
-				"type" : "maxb",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"name" : "jmod.template.control.maxpat",
+				"bootpath" : "/Applications/Max6/patches/templates",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/patches/templates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -378,59 +344,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "msd2D.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.delta.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mnm.meanstd.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -450,7 +372,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "jcom.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
 				"type" : "iLaX"
 			}
  ]
