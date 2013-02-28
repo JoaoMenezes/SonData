@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 356.0, 147.0, 818.0, 562.0 ],
+		"rect" : [ 310.0, 178.0, 818.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -147,14 +147,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Verdana",
-					"fontsize" : 5.890485,
+					"fontsize" : 10.0,
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 479.0, 179.338455, 29.0, 14.0 ],
-					"text" : "t b i"
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 479.0, 179.338455, 32.5, 19.0 ],
+					"text" : "t b l"
 				}
 
 			}
@@ -187,8 +187,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.842773, 196.5, 97.657227, 17.0 ],
-					"presentation_rect" : [ 413.842773, 196.5, 97.657227, 17.0 ],
+					"patching_rect" : [ 413.842773, 206.5, 97.657227, 17.0 ],
+					"presentation_rect" : [ 413.842773, 206.5, 97.657227, 17.0 ],
 					"text" : [ "_size $1 $2" ]
 				}
 
@@ -545,14 +545,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 423.0, 78.0, 19.0 ],
+					"patching_rect" : [ 318.0, 438.0, 78.0, 19.0 ],
 					"text" : "print DataSet"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@name", "jmod.moduleName", "@description", "Import, store & export an  arbitrary dimension Data Set using Ftm.fmat" ],
+					"args" : [ "@name", "jmod.moduleName", "@description", "Import, store & export an  arbitrary dimension Data Set using an Ftm.fmat" ],
 					"bgmode" : 1,
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
@@ -572,7 +572,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 235.0, 139.0, 19.0 ],
+					"patching_rect" : [ 37.0, 250.0, 139.0, 19.0 ],
 					"text" : "r jmod.moduleName.help"
 				}
 
@@ -586,8 +586,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 444.0, 192.0, 17.0 ],
-					"text" : "/view/color/border 0.62 0. 0.36 1."
+					"patching_rect" : [ 37.0, 459.0, 192.0, 17.0 ],
+					"text" : "/view/panel"
 				}
 
 			}
@@ -616,7 +616,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 37.0, 286.0, 300.0, 105.0 ],
+					"patching_rect" : [ 37.0, 301.0, 300.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
@@ -719,7 +719,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"midpoints" : [ 447.5, 295.5, 327.5, 295.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -738,7 +738,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"midpoints" : [ 447.5, 294.5, 327.5, 294.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -748,7 +748,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"midpoints" : [ 447.5, 294.25, 327.5, 294.25 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -822,7 +822,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 488.5, 193.0, 423.342773, 193.0 ],
+					"midpoints" : [ 488.5, 202.0, 423.342773, 202.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -849,7 +849,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"midpoints" : [ 423.342773, 282.75, 327.5, 282.75 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -878,7 +878,7 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 399.5, 219.5, 399.5 ],
+					"midpoints" : [ 46.5, 414.5, 219.5, 414.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -887,20 +887,20 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/SonData/SonData_Alpha/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_Alpha/Aquisition and Storage/jmod.son.table",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/SonData/SonData_Alpha/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_Alpha/Aquisition and Storage/jmod.son.table",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
@@ -908,42 +908,42 @@
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
