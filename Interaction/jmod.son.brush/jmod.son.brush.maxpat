@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1239.0, 361.0, 300.0, 140.0 ],
+		"rect" : [ 2199.0, 251.0, 1161.0, 703.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 360.0, 27.0, 27.0 ]
+					"patching_rect" : [ 258.600006, 370.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -45,9 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 394.0, 201.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 269.5, 45.21917, 18.0, 18.0 ]
+					"patching_rect" : [ 394.0, 201.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -68,20 +66,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 631.0, 470.0, 496.0, 19.0 ],
-					"text" : "jcom.return data points @type array @repetitions/allow 1 @description \"Return seleceted data \""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -90,10 +74,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.5, 713.5, 144.0, 18.0 ],
+					"patching_rect" : [ 178.5, 678.5, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 184.0, 27.5, 62.0, 18.0 ],
-					"text" : "Plot Y"
+					"presentation_rect" : [ 155.0, 51.0, 62.0, 18.0 ],
+					"text" : "col. Y"
 				}
 
 			}
@@ -109,39 +93,38 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 557.5, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 24.0, 62.0, 18.0 ],
-					"text" : "Plot X"
+					"presentation_rect" : [ 4.5, 52.0, 62.0, 18.0 ],
+					"text" : "col. X"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontface" : 1,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.5, 581.5, 138.0, 18.0 ],
+					"patching_rect" : [ 152.5, 581.5, 154.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 42.0, 59.0, 18.0 ],
-					"text" : "Dataset"
+					"presentation_rect" : [ 6.0, 26.0, 67.0, 17.0 ],
+					"text" : "Dataset ID"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.5, 656.5, 138.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 64.5, 59.0, 18.0 ],
+					"patching_rect" : [ 234.5, 656.5, 148.0, 17.0 ],
 					"text" : "Column"
 				}
 
@@ -188,7 +171,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 359.25, 515.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 64.5, 100.0, 20.0 ]
+					"presentation_rect" : [ 195.0, 51.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -206,7 +189,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.5, 678.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 64.5, 100.0, 20.0 ]
+					"presentation_rect" : [ 68.5, 51.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -215,13 +198,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-48",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 337.5, 673.0, 505.5, 31.0 ],
-					"text" : "jcom.parameter col/x @type array @repetitions/allow 1 @description \"choose column to plot in x axis\""
+					"patching_rect" : [ 337.5, 673.0, 597.0, 19.0 ],
+					"text" : "jcom.parameter col/x @type integer @repetitions/allow 1 @description \"choose column to plot in x axis\" @priority 2"
 				}
 
 			}
@@ -234,26 +216,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 359.25, 544.0, 541.0, 19.0 ],
-					"text" : "jcom.parameter col/y @type array @repetitions/allow 0 @description \"choose column to plot in y axis\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "Name of table containing desired input for Y",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-51",
-					"items" : [ "/0", ",", "/example", ",", "/myBrush" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 189.5, 731.5, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 43.5, 100.0, 20.0 ]
+					"patching_rect" : [ 359.25, 545.0, 597.0, 19.0 ],
+					"text" : "jcom.parameter col/y @type integer @repetitions/allow 1 @description \"choose column to plot in y axis\" @priority 2"
 				}
 
 			}
@@ -263,7 +227,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"items" : [ "/0", ",", "/example", ",", "/myBrush" ],
+					"items" : [ "/editing_this_module", ",", "/f" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -271,22 +235,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.5, 604.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 42.0, 100.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-28",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 302.0, 726.0, 541.0, 31.0 ],
-					"text" : "jcom.parameter dataSet/y @type array @repetitions/allow 1 @description \"Name of table containing desired input for Y\""
+					"presentation_rect" : [ 70.0, 26.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -300,8 +249,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 252.0, 598.5, 591.0, 31.0 ],
-					"text" : "jcom.parameter dataSet/x @type array @repetitions/allow 1 @description \"Name of table containing desired input for X\""
+					"patching_rect" : [ 252.0, 598.5, 595.0, 31.0 ],
+					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 1 @description \"Name of table containing desired input for X\" @priority 1"
 				}
 
 			}
@@ -330,7 +279,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.25, 363.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 108.260315, 35.0, 17.0 ],
+					"presentation_rect" : [ 155.0, 26.0, 40.0, 17.0 ],
 					"text" : "table"
 				}
 
@@ -363,7 +312,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.25, 250.54541, 104.132233, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 96.5, 206.0, 30.760315 ],
+					"presentation_rect" : [ 70.0, 76.0, 199.0, 25.0 ],
 					"tabcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"tabs" : [ "Plot" ]
 				}
@@ -427,7 +376,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 39.0, 363.0, 1047.0, 635.0 ],
+						"rect" : [ 1770.0, 168.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -648,7 +597,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 886.0, 743.0, 581.0, 31.0 ],
-									"text" : "jcom.parameter pointSize @type decimal @range/bounds 2. 15. @range/clipmode both @description \"set points size\""
+									"text" : "jcom.parameter pointSize @type decimal @range/bounds 2. 15. @range/clipmode both @description \"set points size\" @priority 3"
 								}
 
 							}
@@ -724,21 +673,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 404.0, 912.327393, 594.0, 33.0 ],
-									"text" : "jcom.message mouse/pressed @type boolean @repetitions/allow 0 @description \"is mouse pressed? just for internal patching convenience\""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-17",
@@ -778,7 +712,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 974.25, 236.327393, 554.0, 31.0 ],
-									"text" : "jcom.parameter area @type decimal @range/bounds 1. 100. @range/clipmode both @ramp/function linear @description \"set  Radius\""
+									"text" : "jcom.parameter area @type decimal @range/bounds 1. 100. @range/clipmode both @ramp/function linear @description \"set  Radius\" @priority 3"
 								}
 
 							}
@@ -826,7 +760,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 974.25, 444.327393, 559.0, 31.0 ],
-									"text" : "jcom.parameter playTime @type integer @repetitions/allow 1 @range/bounds 1 3600 @range/clipmode low @description \"set time of reproduction in seconds  \""
+									"text" : "jcom.parameter playTime @type integer @repetitions/allow 1 @range/bounds 1 3600 @range/clipmode low @description \"set time of reproduction in seconds  \" @priority 3"
 								}
 
 							}
@@ -945,7 +879,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 974.25, 310.327393, 563.0, 31.0 ],
-									"text" : "jcom.parameter radius @type decimal @range/bounds 0.05 1. @range/clipmode both @ramp/function linear @description \"set Aural Radius\""
+									"text" : "jcom.parameter radius @type decimal @range/bounds 0.05 1. @range/clipmode both @ramp/function linear @description \"set Aural Radius\" @priority 3"
 								}
 
 							}
@@ -954,13 +888,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 526.0, 849.327393, 228.0, 47.0 ],
-									"text" : "jcom.message mouse @type array @repetitions/allow 1 @description \"Mouse position in lcd - xy coordinates\""
+									"patching_rect" : [ 526.0, 849.327393, 586.0, 33.0 ],
+									"text" : "jcom.message mousePos @type integerArray @repetitions/allow 1 @description \"Mouse position in lcd - xy coordinates\""
 								}
 
 							}
@@ -986,7 +920,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 413.012878, 465.0, 325.75, 331.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 150.0, 7.0, 502.75, 504.0 ]
+									"presentation_rect" : [ 135.0, 7.0, 502.75, 504.0 ]
 								}
 
 							}
@@ -1151,7 +1085,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.032738, 502.327393, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 39, 363, 1086, 998, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 1770, 168, 2408, 679, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -1550,8 +1484,8 @@
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 7,
-					"outlettype" : [ "/clear", "", "", "clear", "clear", "clear", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "/clear", "", "", "clear", "" ],
 					"patching_rect" : [ 54.0, 338.0, 223.600006, 19.0 ],
 					"text" : "jalg.son.brush"
 				}
@@ -1605,8 +1539,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 300.0, 140.0 ],
-					"text" : "/myBrush"
+					"presentation_rect" : [ 1.0, 1.0, 300.0, 105.0 ],
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -1659,19 +1593,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-33", 6 ]
+					"source" : [ "obj-33", 4 ]
 				}
 
 			}
@@ -1680,17 +1605,16 @@
 					"destination" : [ "obj-42", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.699997, 416.0, 201.75, 416.0 ],
+					"midpoints" : [ 165.800003, 416.0, 201.75, 416.0 ],
 					"source" : [ "obj-33", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 2 ],
+					"destination" : [ "obj-42", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 97.599998, 383.0, 250.5, 383.0 ],
 					"source" : [ "obj-33", 1 ]
 				}
 
@@ -1702,25 +1626,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 63.5, 416.0, 348.0, 416.0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 277.5, 371.0 ],
-					"source" : [ "obj-33", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-33", 4 ]
 				}
 
 			}
@@ -1789,15 +1694,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1811,16 +1707,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 89.5, 733.0, 199.0, 733.0 ],
-					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -1861,6 +1747,141 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jalg.son.brush.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.brush",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.modulesDumper.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getModuleNames.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getModuleNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sd_sonicbrush_plot.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.brush",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameterCreate.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mnm.minmax.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscinstance.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mnm.knn.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.value.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.schedule.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambimonitor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
