@@ -5,25 +5,21 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='ID' type='string' priority='0' mixweight='1'>myGraph</item>
     <item name='autoUpdate' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='column' type='array' priority='0' mixweight='1'>0</item>
-    <item name='cursor' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='dataSet' type='array' priority='0' mixweight='1'>0</item>
-    <item name='data' type='array' priority='0' mixweight='1'>0</item>
-    <item name='duration' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='fgcolor' type='array' priority='0' mixweight='1'>0</item>
+    <item name='col' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='cursor' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='dataSetID' type='string' priority='1' mixweight='1'>0</item>
+    <item name='duration' type='integer' priority='0' mixweight='1'>15</item>
+    <item name='fgcolor' type='decimalArray' priority='0' mixweight='1'>0</item>
     <item name='loop' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='pause' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='remote' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='resizeGraph' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='rulerUnit' type='string' priority='0' mixweight='1'>0</item>
     <item name='rulerUnit' type='string' priority='0' mixweight='1'>0</item>
-    <item name='selection' type='array' priority='0' mixweight='1'>0</item>
-    <item name='tool' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='selection' type='integerArray' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
-    <item name='viewGrid' type='array' priority='0' mixweight='1'>0</item>
-    <item name='viewRuler' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='viewGrid' type='integerArray' priority='0' mixweight='1'>0</item>
+    <item name='viewRuler' type='integerArray' priority='0' mixweight='1'>0</item>
   </preset>
 </jamoma>
