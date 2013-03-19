@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 227.0, 44.0, 1389.0, 759.0 ],
@@ -65,7 +65,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.5, 630.0, 50.0, 17.0 ],
-					"text" : "set 3"
+					"text" : "set 0"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 445.0, 440.0, 50.0, 17.0 ],
-					"text" : "set 3"
+					"text" : "set 0"
 				}
 
 			}
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -347,7 +347,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 306.0, 50.0, 17.0 ],
-					"text" : "set 0"
+					"text" : "set 2"
 				}
 
 			}
@@ -365,7 +365,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -703,7 +703,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1026,7 +1026,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1228,7 +1228,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
-					"items" : [ "all", "voices", ",", "<separator>", ",", 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10, ",", 11, ",", 12, ",", 13, ",", 14, ",", 15, ",", 16, ",", 17, ",", 18, ",", 19, ",", 20, ",", 21, ",", 22, ",", 23, ",", 24, ",", 25, ",", 26, ",", 27, ",", 28, ",", 29, ",", 30, ",", 31, ",", 32, ",", 33, ",", 34, ",", 35, ",", 36, ",", 37, ",", 38, ",", 39, ",", 40, ",", 41, ",", 42, ",", 43, ",", 44, ",", 45, ",", 46, ",", 47, ",", 48, ",", 49, ",", 50, ",", 51, ",", 52, ",", 53, ",", 54, ",", 55, ",", 56, ",", 57, ",", 58, ",", 59, ",", 60, ",", 61, ",", 62, ",", 63, ",", 64, ",", 65, ",", 66, ",", 67, ",", 68, ",", 69, ",", 70, ",", 71, ",", 72, ",", 73, ",", 74, ",", 75, ",", 76, ",", 77, ",", 78, ",", 79, ",", 80, ",", 81, ",", 82, ",", 83 ],
+					"items" : [ "all", "voices", ",", "<separator>", ",", 1 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1259,13 +1259,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 810.0, 131.0, 323.0, 43.0 ],
-					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\""
+					"patching_rect" : [ 810.0, 131.0, 568.0, 31.0 ],
+					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\" @priority 1"
 				}
 
 			}
@@ -1274,12 +1274,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 962.0, 319.0, 563.0, 19.0 ],
-					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 1 @description \"choose voice to set parameters\""
+					"patching_rect" : [ 962.0, 319.0, 567.0, 31.0 ],
+					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 1 @description \"choose voice to set parameters\" @priority 2"
 				}
 
 			}
@@ -1355,7 +1356,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.0, 345.0, 405.0, 17.0 ],
-					"text" : "/impulse/waveForm.83 5"
+					"text" : "/view/highlight none"
 				}
 
 			}
@@ -1404,7 +1405,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1602,8 +1603,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.0, 886.0, 558.5, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/period @type integer @repetitions/allow 0 @range/bounds 1. 10000. @range/clipmode low @ramp/drive scheduler @description \"set pulse train period in miliseconds\""
+					"patching_rect" : [ 494.0, 886.0, 562.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/period @type integer @repetitions/allow 0 @range/bounds 1. 10000. @range/clipmode low @ramp/drive scheduler @description \"set pulse train period in miliseconds\" @priority 3"
 				}
 
 			}
@@ -1631,8 +1632,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.0, 812.0, 558.5, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/train @type boolean @repetitions/allow 0 @ramp/drive scheduler @description \"Activate pulse train at regular intervals\""
+					"patching_rect" : [ 494.0, 812.0, 578.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/train @type boolean @repetitions/allow 0 @ramp/drive scheduler @description \"Activate pulse train at regular intervals\" @priority 3"
 				}
 
 			}
@@ -1704,8 +1705,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 743.5, 603.5, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/trigger @type integer @repetitions/allow 1 @range/bounds 1. 1. @range/clipmode both @ramp/drive scheduler @description \"send 1 to generate  a single impulse\""
+					"patching_rect" : [ 449.0, 743.5, 596.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/trigger @type integer @repetitions/allow 1 @range/bounds 1. 1. @range/clipmode both @ramp/drive scheduler @description \"send 1 to generate  a single impulse\" @priority 3"
 				}
 
 			}
@@ -1878,8 +1879,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 519.5, 450.0, 515.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/waveForm @type integer @repetitions/allow 0 @range/bounds 0 6 @range/clipmode both @priority 1 @description \"select  waveform - sine, triangle, saw, noise\""
+					"patching_rect" : [ 519.5, 450.0, 547.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/waveForm @type integer @repetitions/allow 0 @range/bounds 0 6 @range/clipmode both @priority 1 @description \"select  waveform - sine, triangle, saw, noise\" @priority 3"
 				}
 
 			}
@@ -1938,7 +1939,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 50.0, 94.0, 517.0, 531.0 ],
@@ -2390,7 +2391,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 490.0, 315.0 ],
@@ -2487,8 +2488,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 480.5, 536.5, 572.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/frequency @repetitions/allow 0 @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @description \"Set frequency\"",
+					"patching_rect" : [ 480.5, 536.5, 556.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/frequency @repetitions/allow 0 @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @description \"Set frequency\" @priority 3",
 					"varname" : "hue_angle"
 				}
 
@@ -2606,8 +2607,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 480.5, 681.0, 572.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 impulse/duration @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @priority 2 @description \"set impulse duration in miliseconds\"",
+					"patching_rect" : [ 480.5, 681.0, 547.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 impulse/duration @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @priority 2 @description \"set impulse duration in miliseconds\" @priority 3",
 					"varname" : "period"
 				}
 
@@ -2638,7 +2639,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/myImpulse"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -3083,7 +3084,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 971.5, 197.5, 672.5, 197.5 ],
+					"midpoints" : [ 1094.0, 197.5, 672.5, 197.5 ],
 					"source" : [ "obj-60", 1 ]
 				}
 
@@ -3131,7 +3132,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1043.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1046.5, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3142,7 +3143,7 @@
 					"destination" : [ "obj-23", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1043.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1018.0, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3153,7 +3154,7 @@
 					"destination" : [ "obj-29", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1043.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1027.0, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3164,7 +3165,7 @@
 					"destination" : [ "obj-59", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1025.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1057.0, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3175,7 +3176,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1043.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1062.5, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3186,7 +3187,7 @@
 					"destination" : [ "obj-94", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1043.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1035.5, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3253,6 +3254,126 @@
 					"source" : [ "obj-94", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.parameter.array.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameter.array.instance.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.son.impulse~.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.impulse~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sd_impulse.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.impulse~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.metro.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/metro",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/metro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pan2.maxpat",
+				"bootpath" : "/Applications/Max6/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.meter_receive.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameterCreate.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.meter~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
