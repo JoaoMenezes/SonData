@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
-		"rect" : [ 254.0, 91.0, 1226.0, 880.0 ],
+		"rect" : [ 206.0, 44.0, 1148.0, 751.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,53 +29,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-13",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 420.427734, 819.0, 603.0, 31.0 ],
-					"text" : "jcom.parameter MBS/karplus/decay @type array @range/bounds 0. 1. @range/clipmode low @ramp/drive scheduler @ramp/function linear @description \"Set decay of sting\"",
-					"varname" : "formant[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-21",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 420.0, 750.0, 584.0, 31.0 ],
-					"text" : "jcom.parameter MBS/karplus/dampening @type array @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"Set dampening\"",
-					"varname" : "formant[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-23",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 420.0, 690.0, 580.0, 31.0 ],
-					"text" : "jcom.parameter MBS/karplus/freq @type array @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"set frequency (string length)\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
@@ -96,13 +49,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-94",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 652.572266, 436.5, 526.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 karplus/pluck @type string @repetitions/allow 1 @description trigger to pluck the string"
+					"patching_rect" : [ 652.572266, 436.5, 585.0, 19.0 ],
+					"text" : "jcom.parameter.array 1 karplus/pluck @type string @repetitions/allow 1 @description \"trigger to pluck the string\""
 				}
 
 			}
@@ -148,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -463,7 +415,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -722,7 +674,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1070.0, 205.0, 42.0, 19.0 ],
+					"patching_rect" : [ 1055.5, 205.0, 42.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -786,7 +738,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1019,13 +971,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 908.0, 66.0, 323.0, 43.0 ],
-					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\""
+					"patching_rect" : [ 908.0, 66.0, 568.0, 31.0 ],
+					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\" @priority 1"
 				}
 
 			}
@@ -1034,13 +986,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1060.0, 256.0, 270.0, 43.0 ],
-					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 0 @description \"choose voice to set parameters\""
+					"patching_rect" : [ 1060.0, 256.0, 567.0, 31.0 ],
+					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 0 @description \"choose voice to set parameters\" @priority 2"
 				}
 
 			}
@@ -1098,20 +1050,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.0, 205.0, 114.0, 17.0 ],
 					"text" : "refreshSubscriptions"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1133.0, 328.0, 59.0, 19.0 ],
-					"text" : "jcom.thru"
 				}
 
 			}
@@ -1219,7 +1157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 154.0, 261.0, 266.0, 17.0 ],
-					"text" : "/MBS/karplus/decay:/mix/weight 1."
+					"text" : "/view/highlight none"
 				}
 
 			}
@@ -1251,7 +1189,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 653.0, 636.5, 576.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 karplus/decay @type decimal @range/bounds 0. 1. @range/clipmode low @ramp/drive scheduler @ramp/function linear @description \"Set decay of sting\"",
+					"text" : "jcom.parameter.array 1 karplus/decay @type decimal @range/bounds 0. 1. @range/clipmode low @ramp/drive scheduler @ramp/function linear @description \"Set string decay\" @priority 3",
 					"varname" : "formant[1]"
 				}
 
@@ -1343,7 +1281,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 50.0, 94.0, 517.0, 531.0 ],
@@ -1795,7 +1733,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 490.0, 315.0 ],
@@ -2009,7 +1947,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 653.0, 564.5, 539.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 karplus/dampening @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"Set dampening\"",
+					"text" : "jcom.parameter.array 1 karplus/dampening @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"Set string's dampening\" @priority 3",
 					"varname" : "formant"
 				}
 
@@ -2025,7 +1963,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 652.572266, 507.5, 600.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 karplus/freq @type integer @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"set frequency (string length)\""
+					"text" : "jcom.parameter.array 1 karplus/freq @type integer @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"set frequency (string length)\" @priority 3"
 				}
 
 			}
@@ -2055,7 +1993,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -1.0, 300.0, 105.0 ],
-					"text" : "/mykarplus"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -2084,7 +2022,7 @@
 					"destination" : [ "obj-74", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 798.0, 436.25, 1182.5, 436.25 ],
+					"midpoints" : [ 798.0, 360.25, 1182.5, 360.25 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2104,7 +2042,7 @@
 					"destination" : [ "obj-81", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 798.0, 408.25, 1243.072266, 408.25 ],
+					"midpoints" : [ 798.0, 373.25, 1243.072266, 373.25 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2114,7 +2052,7 @@
 					"destination" : [ "obj-94", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 798.0, 372.25, 1169.072266, 372.25 ],
+					"midpoints" : [ 798.0, 372.25, 1228.072266, 372.25 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2344,7 +2282,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1069.5, 127.5, 770.5, 127.5 ],
+					"midpoints" : [ 1192.0, 127.5, 770.5, 127.5 ],
 					"source" : [ "obj-60", 1 ]
 				}
 
@@ -2456,6 +2394,116 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.parameter.array.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameter.array.instance.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.son.karplus~.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.karplus~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sd_karplus.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.karplus~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.meter_receive.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameterCreate.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
