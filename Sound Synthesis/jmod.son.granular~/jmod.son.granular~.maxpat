@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
-		"rect" : [ 227.0, 44.0, 1440.0, 810.0 ],
+		"rect" : [ 0.0, 48.0, 1440.0, 810.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 140.0, 245.0, 59.0, 19.0 ],
+					"text" : "print HUB"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "live.line",
@@ -76,13 +89,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-18",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 897.0, 561.0, 43.0 ],
-					"text" : "jcom.parameter.array 1 grain/position @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"sets the length (in ms) of the ramping envelope on each grain. if the grain is smaller than the ramptime, the ramptime will be scaled to half the grain size. \"",
+					"patching_rect" : [ 624.0, 897.0, 595.0, 55.0 ],
+					"text" : "jcom.parameter.array 1 grain/position @type decimal @range/bounds -1. 1. @range/clipmode both @ramp/drive scheduler @description \"• set the playback position within the buffer (between 0 and 1). -1 = randomized position (which is the default). it is possible to get some interesting stretching effects by scrubbing through this with record on, and some good transposition effects with record off \" @priority 3",
 					"varname" : "granular/period[8]"
 				}
 
@@ -93,7 +106,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.0, 319.0, 5.0, 100.0 ],
+					"patching_rect" : [ 550.0, 408.0, 5.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.5, 54.0, 5.0, 76.0 ]
 				}
@@ -152,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 683.5, 1025.0, 150.0, 19.0 ],
+					"patching_rect" : [ 683.5, 1037.0, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.5, 96.0, 74.0, 19.0 ],
 					"text" : "Delay length"
@@ -168,7 +181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 683.5, 954.0, 150.0, 19.0 ],
+					"patching_rect" : [ 683.5, 966.0, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.5, 75.0, 61.0, 19.0 ],
 					"text" : "env. ramp"
@@ -185,7 +198,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 624.0, 954.0, 50.0, 19.0 ],
+					"patching_rect" : [ 624.0, 966.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.5, 75.0, 50.0, 19.0 ]
 				}
@@ -201,8 +214,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 973.0, 561.0, 43.0 ],
-					"text" : "jcom.parameter.array 1 grain/rampTime @type integer @range/bounds 0. 1000. @range/clipmode low @ramp/drive scheduler @description \"sets the length (in ms) of the ramping envelope on each grain. if the grain is smaller than the ramptime, the ramptime will be scaled to half the grain size. \"",
+					"patching_rect" : [ 624.0, 985.0, 602.0, 43.0 ],
+					"text" : "jcom.parameter.array 1 grain/rampTime @type integer @range/bounds 0. 1000. @range/clipmode low @ramp/drive scheduler @description \"sets the length (in ms) of the ramping envelope on each grain. if the grain is smaller than the ramptime, the ramptime will be scaled to half the grain size. \" @priority 3",
 					"varname" : "granular/period[7]"
 				}
 
@@ -249,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 820.0, 561.0, 43.0 ],
-					"text" : "jcom.parameter.array grain/direction @type integer @repetitions/allow 0 @range/bounds -1 1 @range/clipmode both @description \"allows grains to play backwards and forwards (0), just forwards (1), or just backwards (-1). (0) by default.\""
+					"patching_rect" : [ 624.0, 820.0, 596.0, 43.0 ],
+					"text" : "jcom.parameter.array grain/direction @type integer @repetitions/allow 0 @range/bounds -1 1 @range/clipmode both @description \"allows grains to play backwards and forwards (0), just forwards (1), or just backwards (-1). (0) by default.\" @priority 3"
 				}
 
 			}
@@ -297,8 +310,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 613.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/durVariation @type decimal @range/bounds 0. 300. @range/clipmode low @ramp/drive scheduler @description \"set grain duration in miliseconds\"",
+					"patching_rect" : [ 624.0, 613.0, 540.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/durVariation @type decimal @range/bounds 0. 300. @range/clipmode low @ramp/drive scheduler @description \"set grain duration in miliseconds\" @priority 3",
 					"varname" : "granular/period[6]"
 				}
 
@@ -327,7 +340,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 624.0, 1025.0, 50.0, 19.0 ],
+					"patching_rect" : [ 624.0, 1037.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.5, 96.0, 50.0, 19.0 ]
 				}
@@ -343,8 +356,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 1047.0, 561.0, 43.0 ],
-					"text" : "jcom.parameter.array 1 grain/delaylength_ms @type integer @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"constrain how far back in time the module looks for grains. in miliseconds \"",
+					"patching_rect" : [ 624.0, 1059.0, 588.0, 43.0 ],
+					"text" : "jcom.parameter.array 1 grain/delaylength_ms @type integer @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"constrain how far back in time the module looks for grains. in miliseconds \" @priority 3",
 					"varname" : "granular/period[5]"
 				}
 
@@ -408,8 +421,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 750.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/pitchVariation @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"set grain pitch variation\"",
+					"patching_rect" : [ 624.0, 750.0, 540.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/pitchVariation @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"set grain pitch variation\" @priority 3",
 					"varname" : "granular/period[4]"
 				}
 
@@ -443,7 +456,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -650,7 +663,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -988,7 +1001,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1311,7 +1324,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1513,7 +1526,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-47",
-					"items" : [ "all", "voices", ",", "<separator>", ",", 1, ",", 2, ",", 3 ],
+					"items" : [ "all", "voices", ",", "<separator>", ",", 1 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1572,13 +1585,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 887.0, 51.0, 323.0, 43.0 ],
-					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\""
+					"patching_rect" : [ 887.0, 51.0, 568.0, 31.0 ],
+					"text" : "jcom.parameter numVoices @type integer @repetitions/allow 0 @range/bounds 0. 500. @range/clipmode low @description \"set number of voices - polyphony\" @priority 1"
 				}
 
 			}
@@ -1587,13 +1600,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-50",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1039.0, 246.5, 272.0, 43.0 ],
-					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 0 @description \"choose voice to set parameters\""
+					"patching_rect" : [ 1039.0, 246.5, 567.0, 31.0 ],
+					"text" : "jcom.parameter allocVoice @type integer @repetitions/allow 0 @description \"choose voice to set parameters\" @priority 2"
 				}
 
 			}
@@ -1701,7 +1714,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 624.0, 388.0, 50.0, 19.0 ],
+					"patching_rect" : [ 624.0, 375.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 115.5, 54.0, 50.0, 19.0 ]
 				}
@@ -1765,8 +1778,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 546.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/duration @type decimal @range/bounds 0. 300. @range/clipmode low @ramp/drive scheduler @description \"set grain duration in miliseconds\"",
+					"patching_rect" : [ 624.0, 546.0, 589.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/duration @type decimal @range/bounds 0. 300. @range/clipmode low @ramp/drive scheduler @description \"set grain duration in miliseconds\" @priority 3",
 					"varname" : "granular/period[3]"
 				}
 
@@ -1781,8 +1794,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 682.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/pitch @type integer @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @description \"set grain pitch\"",
+					"patching_rect" : [ 624.0, 682.0, 587.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/pitch @type integer @range/bounds 1. 20000. @range/clipmode both @ramp/drive scheduler @description \"set grain pitch\" @priority 3",
 					"varname" : "granular/period[2]"
 				}
 
@@ -1812,8 +1825,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 480.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/rateVariation @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"set grain position\"",
+					"patching_rect" : [ 624.0, 480.0, 556.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/rateVariation @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"set grain position\" @priority 3",
 					"varname" : "granular/period[1]"
 				}
 
@@ -1870,21 +1883,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 250.0, 375.0, 216.0, 17.0 ],
-					"text" : "/view/highlight none"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 480.0, 118.0, 19.0 ],
-					"text" : "<- signal outputs"
+					"text" : "/grain/position.1 1."
 				}
 
 			}
@@ -2109,8 +2108,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 624.0, 408.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter.array 1 grain/rate @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"set grain period in miliseconds\"",
+					"patching_rect" : [ 624.0, 408.0, 580.0, 31.0 ],
+					"text" : "jcom.parameter.array 1 grain/rate @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @description \"set grain period in miliseconds\" @priority 3",
 					"varname" : "granular/period"
 				}
 
@@ -2262,6 +2261,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 23.5, 242.5, 149.5, 242.5 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -2436,7 +2445,7 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 520.0, 1175.5, 520.0 ],
+					"midpoints" : [ 1048.5, 520.0, 1201.5, 520.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2446,7 +2455,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 452.0, 1175.5, 452.0 ],
+					"midpoints" : [ 1048.5, 452.0, 1203.5, 452.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2456,7 +2465,7 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 627.5, 1175.5, 627.5 ],
+					"midpoints" : [ 1048.5, 627.5, 1209.5, 627.5 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2466,7 +2475,7 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 383.0, 1175.5, 383.0 ],
+					"midpoints" : [ 1048.5, 383.0, 1194.5, 383.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2476,7 +2485,7 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 419.0, 1175.5, 419.0 ],
+					"midpoints" : [ 1048.5, 419.0, 1170.5, 419.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2486,7 +2495,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 554.0, 1175.5, 554.0 ],
+					"midpoints" : [ 1048.5, 554.0, 1154.5, 554.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2496,7 +2505,7 @@
 					"destination" : [ "obj-64", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 702.5, 1175.5, 702.5 ],
+					"midpoints" : [ 1048.5, 702.5, 1202.5, 702.5 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2506,7 +2515,7 @@
 					"destination" : [ "obj-73", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 485.5, 1175.5, 485.5 ],
+					"midpoints" : [ 1048.5, 485.5, 1154.5, 485.5 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2516,7 +2525,7 @@
 					"destination" : [ "obj-78", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 589.0, 1175.5, 589.0 ],
+					"midpoints" : [ 1048.5, 589.0, 1210.5, 589.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2526,7 +2535,7 @@
 					"destination" : [ "obj-86", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 665.5, 1175.5, 665.5 ],
+					"midpoints" : [ 1048.5, 665.5, 1216.5, 665.5 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -2554,7 +2563,7 @@
 					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1048.5, 112.5, 749.5, 112.5 ],
+					"midpoints" : [ 1171.0, 112.5, 749.5, 112.5 ],
 					"source" : [ "obj-60", 1 ]
 				}
 
@@ -2836,27 +2845,27 @@
 		"dependency_cache" : [ 			{
 				"name" : "jcom.parameter.array.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameter.array.instance.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.granular~.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Sound Synthesis/jmod.son.granular~",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.granular~",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sd_granular.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData/Sound Synthesis/jmod.son.granular~",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Sound Synthesis/jmod.son.granular~",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2864,21 +2873,21 @@
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
