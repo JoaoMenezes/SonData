@@ -22,4 +22,8 @@ Resonators~ (CNMAT) - http://cnmat.berkeley.edu/patch/4019
 
 
 http://redmine.jamoma.org/projects/sonification-toolbox
-SonData - Interactive Data Sonification Toolbox by João Menezes is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+LICENSE :  
+Open Instruments by João Menezes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+(for more information visit http://creativecommons.org/licenses/by-nc-sa/3.0/)
