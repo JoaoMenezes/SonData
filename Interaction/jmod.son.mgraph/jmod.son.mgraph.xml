@@ -13,11 +13,6 @@
     <item name='cursor' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='dataSetID' type='string' priority='1' mixweight='1'>0</item>
     <item name='duration' type='integer' priority='0' mixweight='1'>10</item>
-    <item name='label/A' type='string' priority='3' mixweight='1'>labelA</item>
-    <item name='label/B' type='string' priority='3' mixweight='1'>labelB</item>
-    <item name='label/C' type='string' priority='3' mixweight='1'>labelC</item>
-    <item name='label/D' type='string' priority='3' mixweight='1'>labelD</item>
-    <item name='label/E' type='string' priority='3' mixweight='1'>labelE</item>
     <item name='lines' type='string' priority='0' mixweight='1'>lines</item>
     <item name='loop' type='boolean' priority='2' mixweight='1'>0</item>
     <item name='pause' type='boolean' priority='0' mixweight='1'>0</item>
