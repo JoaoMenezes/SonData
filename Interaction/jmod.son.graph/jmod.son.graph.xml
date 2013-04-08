@@ -7,16 +7,16 @@
   <preset number='1' name='default'>
     <item name='autoUpdate' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='col' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='cursor' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='cursor' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='dataSetID' type='string' priority='1' mixweight='1'>0</item>
     <item name='duration' type='integer' priority='0' mixweight='1'>15</item>
-    <item name='fgcolor' type='decimalArray' priority='0' mixweight='1'>0</item>
+    <item name='fgcolor' type='decimalArray' priority='0' mixweight='1'>0.000000</item>
     <item name='loop' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='pause' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='region' type='decimalArray' priority='0' mixweight='1'>5.171642 6.078358 </item>
     <item name='resizeGraph' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='rulerUnit' type='string' priority='0' mixweight='1'>0</item>
     <item name='rulerUnit' type='string' priority='0' mixweight='1'>0</item>
-    <item name='selection' type='integerArray' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
     <item name='viewGrid' type='integerArray' priority='0' mixweight='1'>0</item>
