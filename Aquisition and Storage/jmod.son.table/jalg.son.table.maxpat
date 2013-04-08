@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 165.0, 400.0, 72.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -2120,7 +2134,7 @@
 					"patching_rect" : [ 220.880127, 692.849304, 224.085068, 20.0 ],
 					"persistence" : 0,
 					"presentation_rect" : [ 220.880127, 692.849304, 224.085068, 20.19096 ],
-					"scope" : 1,
+					"scope" : 0,
 					"text" : "mat 1 100"
 				}
 
@@ -2217,7 +2231,7 @@
 					"patching_rect" : [ 12.905273, 682.157349, 120.113754, 21.0 ],
 					"persistence" : 0,
 					"presentation_rect" : [ 12.905273, 682.157349, 120.113754, 21.700832 ],
-					"scope" : 1,
+					"scope" : 0,
 					"text" : "fmat"
 				}
 
@@ -2416,29 +2430,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
 , 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
 			}
  ]
 	}

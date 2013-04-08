@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 523.0, 44.0, 917.0, 567.0 ],
+		"rect" : [ 441.0, 44.0, 917.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -82,12 +82,12 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-2",
-									"linecount" : 2,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 202.0, 192.0, 29.0 ],
+									"patching_rect" : [ 50.0, 210.0, 67.0, 53.0 ],
 									"text" : "/colNames colA - ColB - ColC - colD - colE"
 								}
 
@@ -100,7 +100,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 290.0, 155.0, 20.0 ],
+									"patching_rect" : [ 50.0, 320.0, 155.0, 20.0 ],
 									"text" : "send jmod.myDataSet.help"
 								}
 
@@ -114,7 +114,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.0, 240.0, 70.0, 17.0 ],
+									"patching_rect" : [ 150.5, 240.0, 70.0, 17.0 ],
 									"text" : "/view/panel"
 								}
 
@@ -142,7 +142,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "bang" ],
-									"patching_rect" : [ 50.0, 147.5, 179.0, 19.0 ],
+									"patching_rect" : [ 50.0, 147.5, 46.0, 19.0 ],
 									"text" : "t b b b"
 								}
 
@@ -170,7 +170,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 240.0, 84.0, 17.0 ],
+									"patching_rect" : [ 351.5, 228.0, 84.0, 17.0 ],
 									"text" : "/import iris.txt"
 								}
 
@@ -348,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.75, 80.0, 358.25, 38.0 ],
+					"patching_rect" : [ 510.75, 77.0, 358.25, 38.0 ],
 					"text" : "Instead of importing a dataset, you can also fill the matrix manually."
 				}
 
@@ -514,11 +514,10 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 464.666626, 259.0, 31.0 ],
+					"patching_rect" : [ 615.0, 472.666626, 281.0, 19.0 ],
 					"text" : "More functions available at ftm.fmat help patch."
 				}
 
@@ -637,7 +636,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 437.666626, 274.0, 19.0 ],
+					"patching_rect" : [ 615.0, 437.666626, 275.0, 19.0 ],
 					"text" : "calculate square of absolute values of current values"
 				}
 
@@ -651,7 +650,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 415.666626, 235.0, 19.0 ],
+					"patching_rect" : [ 615.0, 413.666626, 237.0, 19.0 ],
 					"text" : "calculate exponent function of current values"
 				}
 
@@ -665,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 393.666656, 217.0, 19.0 ],
+					"patching_rect" : [ 615.0, 392.666656, 219.0, 19.0 ],
 					"text" : "calculate safe logarithm of current values"
 				}
 
@@ -680,7 +679,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 366.666656, 269.0, 31.0 ],
+					"patching_rect" : [ 615.0, 365.666656, 281.0, 31.0 ],
 					"text" : "calculate safe logarithm of absolute values of current values"
 				}
 
@@ -799,7 +798,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 344.0, 223.0, 19.0 ],
+					"patching_rect" : [ 615.0, 344.0, 225.0, 19.0 ],
 					"text" : "calculate absolute values of current values"
 				}
 
@@ -934,14 +933,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 49.0, 139.0, 19.0 ],
+									"patching_rect" : [ 29.0, 390.0, 139.0, 19.0 ],
 									"text" : "s jmod.moduleName.help"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "jmod.son.table" ],
+									"args" : [ "myDataSet" ],
 									"id" : "obj-2",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.preset_params.maxpat",
@@ -965,7 +964,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 610.0, 514.0, 172.0, 24.0 ],
+					"patching_rect" : [ 615.0, 514.0, 172.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -1272,6 +1271,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ftm.editor.mxo",
 				"type" : "iLaX"
 			}
@@ -1289,10 +1292,6 @@
 			}
 , 			{
 				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
