@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 913.0, 585.0 ],
@@ -51,8 +52,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -448,11 +450,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -663,7 +666,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ -1297.0, -101.0, 119.0, 20.0 ],
+					"patching_rect" : [ -1281.5, -120.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -687,7 +690,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -1327.5, -139.0, -1287.5, -139.0 ],
+					"midpoints" : [ -1327.5, -139.0, -1272.0, -139.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -788,8 +791,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
