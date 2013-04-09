@@ -6,14 +6,12 @@
 >
   <preset number='1' name='default'>
     <item name='NtoSearch' type='integer' priority='0' mixweight='1'>5</item>
-    <item name='col/x' type='array' priority='0' mixweight='1'>0</item>
-    <item name='col/y' type='array' priority='0' mixweight='1'>0</item>
-    <item name='dataSet/x' type='array' priority='0' mixweight='1'>example</item>
-    <item name='dataSet/y' type='array' priority='0' mixweight='1'>example</item>
+    <item name='col/x' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/y' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='dataSetID' type='string' priority='1' mixweight='1'>1</item>
     <item name='drawCoords' type='integer' priority='0' mixweight='1'>0</item>
     <item name='drawMeanVectors' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='maxRadius' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='mouseMode' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='maxRadius' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
