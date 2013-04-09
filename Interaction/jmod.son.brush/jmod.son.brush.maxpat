@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 741.0, 44.0, 1126.0, 806.0 ],
+		"rect" : [ 499.0, 44.0, 1126.0, 806.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -77,7 +77,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.0, 678.5, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.0, 51.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 177.0, 56.0, 62.0, 18.0 ],
 					"text" : "col. Y"
 				}
 
@@ -94,7 +94,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 557.5, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 52.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 58.0, 55.0, 62.0, 18.0 ],
 					"text" : "col. X"
 				}
 
@@ -111,8 +111,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 581.5, 154.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 26.0, 67.0, 17.0 ],
-					"text" : "Dataset ID"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 9.0, 30.0, 79.0, 28.0 ],
+					"text" : "Dataset mod. Name"
 				}
 
 			}
@@ -172,7 +173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 359.25, 515.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 51.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 208.0, 55.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -190,7 +191,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.5, 678.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.5, 51.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 98.5, 55.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -228,7 +229,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"items" : [ "/editing_this_module", ",", "/myCue", ",", "/myGraph", ",", "/myModule", ",", "/myOtherGraph", ",", "/myTableB" ],
+					"items" : [ "/editing_this_module", ",", "/myData" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -236,7 +237,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.5, 604.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 26.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 100.0, 28.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -280,7 +281,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.25, 363.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.0, 26.0, 40.0, 17.0 ],
+					"presentation_rect" : [ 208.0, 28.0, 40.0, 17.0 ],
 					"text" : "table"
 				}
 
@@ -313,7 +314,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.25, 250.54541, 104.132233, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 76.0, 199.0, 25.0 ],
+					"presentation_rect" : [ 98.5, 80.0, 184.5, 25.0 ],
 					"tabcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"tabs" : [ "Plot" ]
 				}
@@ -1501,7 +1502,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 300.0, 105.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 300.0, 105.0 ],
 					"text" : "/editing_this_module"
 				}
 
@@ -1732,7 +1733,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.son.brush.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1740,34 +1741,34 @@
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
 				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getModuleNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getModuleNames",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getModuleNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
 				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sd_sonicbrush_plot.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1775,7 +1776,7 @@
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,6 +4,8 @@ SonData is an Interactive Data Sonification toolkit, targeted at all practitione
 
 http://cargocollective.com/joaomenezes/sondata
 
+**VERSION 1.1
+**
 
 VERSION REQUIREMENTS:
 
@@ -22,6 +24,9 @@ Resonators~ (CNMAT) - http://cnmat.berkeley.edu/patch/4019
 
 
 http://redmine.jamoma.org/projects/sonification-toolbox
+
+Any questions, please mail me to joaommenezes@gmail.com (insert [SonData] in the subject)
+
 
 LICENSE :  
 Open Instruments by João Menezes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
