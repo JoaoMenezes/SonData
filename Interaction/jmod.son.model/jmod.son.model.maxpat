@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 44.0, 1365.0, 771.0 ],
+		"rect" : [ 116.0, 78.0, 1365.0, 771.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2319,7 +2319,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1200.0, 130.0, 55.0, 135.0 ],
+						"rect" : [ 1735.0, 662.0, 127.0, 30.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3208,7 +3208,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1146.0, 130.0, 51.0, 136.0 ],
+						"rect" : [ 1604.0, 662.0, 127.0, 30.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -4097,7 +4097,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1092.0, 130.0, 51.0, 136.0 ],
+						"rect" : [ 1475.0, 662.0, 127.0, 30.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -5623,7 +5623,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 408.0, 159.0, 205.0, 25.0 ],
+						"rect" : [ 738.0, 376.0, 150.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -7489,7 +7489,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1200.0, 130.0, 55.0, 135.0 ],
+						"rect" : [ 1782.0, 369.0, 122.0, 26.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -8395,7 +8395,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1146.0, 130.0, 47.0, 135.0 ],
+						"rect" : [ 1650.0, 369.0, 114.0, 24.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -9301,7 +9301,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1092.0, 130.0, 47.0, 135.0 ],
+						"rect" : [ 1515.0, 369.0, 114.0, 24.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10533,7 +10533,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 759.0, 131.0, 50.0, 140.0 ],
+						"rect" : [ 1287.0, 1079.0, 122.0, 26.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -11775,7 +11775,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 703.0, 131.0, 50.0, 138.0 ],
+						"rect" : [ 1156.0, 1079.0, 114.0, 24.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -13017,7 +13017,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 646.0, 131.0, 50.0, 138.0 ],
+						"rect" : [ 1028.0, 1073.0, 115.0, 24.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -14303,7 +14303,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 759.0, 131.0, 50.0, 135.0 ],
+						"rect" : [ 848.0, 1073.0, 123.0, 26.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -15544,7 +15544,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 703.0, 131.0, 52.0, 140.0 ],
+						"rect" : [ 703.0, 1079.0, 114.0, 24.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -16785,7 +16785,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 646.0, 131.0, 52.0, 134.0 ],
+						"rect" : [ 566.0, 1079.0, 109.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -17772,7 +17772,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 408.0, 187.0, 226.0, 69.0 ],
+						"rect" : [ 464.0, 657.0, 220.0, 29.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -22418,7 +22418,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 170.0, 213.0, 239.0, 25.0 ],
+						"rect" : [ 316.0, 1029.0, 215.0, 26.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -70177,7 +70177,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 158.0, 200.0, 25.0 ],
+						"rect" : [ 1231.0, 619.0, 150.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -70986,7 +70986,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 186.0, 220.0, 72.0 ],
+						"rect" : [ 963.0, 685.0, 220.0, 30.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -75394,7 +75394,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 186.0, 220.0, 77.0 ],
+						"rect" : [ 963.0, 376.0, 220.0, 29.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -79837,7 +79837,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 408.0, 187.0, 210.0, 69.0 ],
+						"rect" : [ 478.0, 396.0, 220.0, 29.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -84229,7 +84229,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 176.0, 184.0, 205.0, 25.0 ],
+						"rect" : [ 1028.0, 1389.0, 150.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -85037,7 +85037,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 176.0, 154.0, 205.0, 25.0 ],
+						"rect" : [ 791.0, 1389.0, 187.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -85846,7 +85846,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 158.0, 200.0, 25.0 ],
+						"rect" : [ 1237.0, 349.0, 179.0, 27.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -86689,7 +86689,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 408.0, 159.0, 255.0, 45.0 ],
+						"rect" : [ 738.0, 645.0, 150.0, 25.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87501,7 +87501,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-42",
-					"items" : [ "/myTable", ",", "/editing_this_module" ],
+					"items" : "/editing_this_module",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

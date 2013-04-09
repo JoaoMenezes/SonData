@@ -7616,7 +7616,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 540.0, 225.0, 51.717773, 17.0 ],
+													"patching_rect" : [ 540.0, 225.0, 51.717773, 16.148438 ],
 													"presentation_rect" : [ 540.0, 225.0, 51.717773, 16.148438 ],
 													"text" : [ "_$LinLimit" ]
 												}
@@ -7734,7 +7734,7 @@
 													"numins" : 6,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 260.0, 330.0, 319.598633, 17.0 ],
+													"patching_rect" : [ 260.0, 330.0, 319.598633, 16.148438 ],
 													"presentation_rect" : [ 260.0, 330.0, 319.598633, 16.148438 ],
 													"text" : [ "_ target $*2, /upperlimit_lin $1 $2 $3, /lowerlimit_lin $4 $5 $6" ]
 												}
@@ -7789,7 +7789,7 @@
 													"numins" : 6,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 225.0, 407.801758, 17.0 ],
+													"patching_rect" : [ 110.0, 225.0, 407.801758, 16.148438 ],
 													"presentation_rect" : [ 110.0, 225.0, 407.801758, 16.148438 ],
 													"text" : [ "_setcol 0 $*1,setcol 1 $*2, setcol 2 $*3, setcol 3 $*4, setcol 4 $*5, setcol 5 $*6" ]
 												}
@@ -7824,7 +7824,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 200.0, 51.209961, 17.0 ],
+													"patching_rect" : [ 50.0, 200.0, 51.209961, 16.148438 ],
 													"presentation_rect" : [ 50.0, 200.0, 51.209961, 16.148438 ],
 													"text" : [ "_size $1 6" ]
 												}
@@ -7844,7 +7844,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 110.0, 250.0, 114.52832, 18.0 ],
+													"patching_rect" : [ 110.0, 250.0, 114.52832, 18.5 ],
 													"persistence" : 0,
 													"presentation_rect" : [ 110.0, 250.0, 114.52832, 18.5 ],
 													"scope" : 0,
@@ -18268,7 +18268,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
