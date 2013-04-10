@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 498.0, 264.0, 776.0, 474.0 ],
+		"rect" : [ 367.0, 63.0, 791.0, 279.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,83 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 660.0, 298.0, 32.5, 17.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 600.0, 298.0, 50.0, 17.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Plot the graph",
+					"handoff" : "",
+					"hltcolor" : [ 0.47451, 0.694118, 1.0, 0.33 ],
+					"id" : "obj-17",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 600.0, 265.0, 92.183899, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.408051, 75.0, 193.183899, 25.0 ],
+					"rounded" : 14.0,
+					"toggle" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 360.0, 315.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"borderoncolor" : [ 1.0, 0.0, 0.501961, 1.0 ],
+					"button" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-10",
+					"maxclass" : "tab",
+					"multiline" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 265.0, 242.0, 95.0, 28.0 ],
+					"tabs" : [ "plot" ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -91,7 +168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.0, 678.5, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.0, 51.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 154.0, 50.0, 62.0, 18.0 ],
 					"text" : "col. Y"
 				}
 
@@ -108,7 +185,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 557.5, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 52.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 3.5, 51.0, 62.0, 18.0 ],
 					"text" : "col. X"
 				}
 
@@ -125,7 +202,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 581.5, 154.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 26.0, 67.0, 17.0 ],
+					"presentation_rect" : [ 5.0, 25.0, 67.0, 17.0 ],
 					"text" : "Dataset ID"
 				}
 
@@ -186,7 +263,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 339.5, 525.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 51.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 194.0, 50.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -204,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.5, 678.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.5, 51.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 67.5, 50.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -243,7 +320,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"items" : "/editing_this_module",
+					"items" : [ "/myBrush", ",", "/myTable" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -251,7 +328,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.5, 604.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 26.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 69.0, 25.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -295,7 +372,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.25, 363.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.0, 26.0, 40.0, 17.0 ],
+					"presentation_rect" : [ 154.0, 25.0, 40.0, 17.0 ],
 					"text" : "table"
 				}
 
@@ -309,13 +386,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 439.25, 279.471069, 428.0, 19.0 ],
-					"text" : "jcom.message plot @type none @repetitions/allow 1 @description \"Plot the graph\""
+					"patching_rect" : [ 439.25, 315.0, 510.0, 19.0 ],
+					"text" : "jcom.parameter plot @type boolean @repetitions/allow 1 @description \"Plot the graph\" @priority 5"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"borderoncolor" : [ 0.0, 0.501961, 0.25098, 0.79 ],
+					"button" : 1,
 					"clicktextcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -325,12 +404,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 439.25, 250.54541, 104.132233, 20.0 ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 439.25, 260.0, 104.132233, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 76.0, 199.0, 25.0 ],
+					"presentation_rect" : [ 69.0, 75.0, 199.0, 25.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_type" : 3,
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "tab",
+							"parameter_longname" : "tab"
+						}
+
+					}
+,
 					"tabcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"tabs" : [ "Plot" ]
+					"tabs" : [ "Plot" ],
+					"varname" : "tab"
 				}
 
 			}
@@ -393,7 +483,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 75.0, 77.0, 1294.0, 773.0 ],
+						"rect" : [ 71.0, 240.0, 637.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1070,7 +1160,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.032738, 502.327393, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 75, 77, 1369, 850, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -1515,8 +1605,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 300.0, 105.0 ],
-					"text" : "/editing_this_module"
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
+					"text" : "/myBrush"
 				}
 
 			}
@@ -1527,6 +1617,42 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
 				}
 
 			}
@@ -1745,6 +1871,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1753,148 +1888,10 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.son.brush.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.getModuleNames.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sd_sonicbrush_plot.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mnm.minmax.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mnm.knn.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.value.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.schedule.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.textslider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.dataspace.mxo",
-				"type" : "iLaX"
-			}
- ]
+		"parameters" : 		{
+			"obj-8::obj-76" : [ "tab", "tab", 0 ]
+		}
+
 	}
 
 }
