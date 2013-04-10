@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 432.0, 151.0, 1175.0, 836.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -189,7 +190,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "/clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1301.5, 55.845703, 25.0, 25.0 ]
 				}
 
@@ -275,8 +276,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 93.0, 613.0, 1190.0, 504.0 ],
@@ -323,8 +325,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1314.0, 702.0, 640.0, 480.0 ],
@@ -389,8 +392,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 89.0, 316.0, 163.609863, 16.0 ],
-													"presentation_rect" : [ 89.0, 316.0, 163.609863, 16.0 ],
+													"patching_rect" : [ 89.0, 316.0, 163.609863, 15.25 ],
+													"presentation_rect" : [ 89.0, 316.0, 163.609863, 15.25 ],
 													"text" : [ "_drawsprite zone ( $1 + 2 ) ($2 + 2)" ]
 												}
 
@@ -411,9 +414,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 135.522354, 144.0, 255.0, 38.0 ],
+													"patching_rect" : [ 135.522354, 144.0, 255.0, 37.75 ],
 													"presentation_linecount" : 3,
-													"presentation_rect" : [ 135.522354, 144.0, 255.0, 38.0 ],
+													"presentation_rect" : [ 135.522354, 144.0, 255.0, 37.75 ],
 													"text" : [ "_recordsprite,", "_frameoval (1 - $1) (1 - $2) ($1 + 1) ($2 + 1) 0 161 10,", "_closesprite zone" ]
 												}
 
@@ -590,8 +593,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 139.0, 306.0, 640.0, 480.0 ],
@@ -965,8 +969,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 640.0, 480.0 ],
@@ -1346,7 +1351,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "/clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1054.0, 55.845703, 25.0, 25.0 ]
 				}
 
@@ -1774,6 +1779,19 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ambimonitor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
