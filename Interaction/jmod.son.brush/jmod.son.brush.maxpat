@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 499.0, 44.0, 1126.0, 806.0 ],
+		"rect" : [ 498.0, 264.0, 776.0, 474.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 154.0, 200.0, 17.0 ],
+					"text" : "/preset/read jmod.son.brushHelp.xml"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
@@ -77,7 +91,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.0, 678.5, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 56.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 155.0, 51.0, 62.0, 18.0 ],
 					"text" : "col. Y"
 				}
 
@@ -94,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 557.5, 144.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 55.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 4.5, 52.0, 62.0, 18.0 ],
 					"text" : "col. X"
 				}
 
@@ -111,9 +125,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 581.5, 154.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 9.0, 30.0, 79.0, 28.0 ],
-					"text" : "Dataset mod. Name"
+					"presentation_rect" : [ 6.0, 26.0, 67.0, 17.0 ],
+					"text" : "Dataset ID"
 				}
 
 			}
@@ -165,15 +178,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-46",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.25, 515.0, 100.0, 20.0 ],
+					"patching_rect" : [ 339.5, 525.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.0, 55.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 195.0, 51.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -183,7 +196,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-47",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -191,7 +204,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.5, 678.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.5, 55.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 68.5, 51.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -200,12 +213,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-48",
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 337.5, 673.0, 597.0, 19.0 ],
-					"text" : "jcom.parameter col/x @type integer @repetitions/allow 1 @description \"choose column to plot in x axis\" @priority 2"
+					"patching_rect" : [ 407.891113, 645.0, 166.850006, 67.0 ],
+					"text" : "jcom.parameter col/x @type integer @repetitions/allow 1 @priority 2 @description \"choose column to plot in x axis\""
 				}
 
 			}
@@ -218,8 +232,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 359.25, 545.0, 597.0, 19.0 ],
-					"text" : "jcom.parameter col/y @type integer @repetitions/allow 1 @description \"choose column to plot in y axis\" @priority 2"
+					"patching_rect" : [ 359.25, 557.5, 597.0, 19.0 ],
+					"text" : "jcom.parameter col/y @type integer @repetitions/allow 1 @priority 3 @description \"choose column to plot in y axis\""
 				}
 
 			}
@@ -229,7 +243,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"items" : [ "/editing_this_module", ",", "/myData" ],
+					"items" : "/editing_this_module",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -237,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.5, 604.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 28.0, 74.0, 20.0 ]
+					"presentation_rect" : [ 70.0, 26.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -251,8 +265,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 252.0, 598.5, 595.0, 31.0 ],
-					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 1 @description \"Name of table containing desired input for X\" @priority 1"
+					"patching_rect" : [ 252.0, 598.5, 586.0, 31.0 ],
+					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 1 @priority 1 @description \"Name of table containing desired input for X\""
 				}
 
 			}
@@ -281,7 +295,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.25, 363.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.0, 28.0, 40.0, 17.0 ],
+					"presentation_rect" : [ 155.0, 26.0, 40.0, 17.0 ],
 					"text" : "table"
 				}
 
@@ -314,7 +328,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.25, 250.54541, 104.132233, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.5, 80.0, 184.5, 25.0 ],
+					"presentation_rect" : [ 70.0, 76.0, 199.0, 25.0 ],
 					"tabcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"tabs" : [ "Plot" ]
 				}
@@ -375,11 +389,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 35.0, 73.0, 647.0, 516.0 ],
+						"rect" : [ 75.0, 77.0, 1294.0, 773.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -398,7 +412,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -581,7 +594,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 886.0, 714.327393, 160.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.25, 160.327393, 122.023895, 20.0 ],
+									"presentation_rect" : [ 5.25, 160.327393, 122.023895, 20.0 ],
 									"range" : [ 2.0, 15.0 ],
 									"text" : "pointSize"
 								}
@@ -666,7 +679,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 974.25, 216.327393, 160.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 90.0, 124.273895, 20.0 ],
+									"presentation_rect" : [ 5.25, 90.0, 124.273895, 20.0 ],
 									"range" : [ 0.0, 100.0 ],
 									"text" : "Area"
 								}
@@ -750,7 +763,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 974.25, 354.873535, 104.132233, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.25, 45.758301, 127.023895, 40.0 ],
+									"presentation_rect" : [ 4.25, 44.758301, 127.023895, 40.0 ],
 									"tabcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 									"tabs" : [ "PlayAll" ]
 								}
@@ -947,7 +960,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1057,7 +1070,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.032738, 502.327393, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 35, 73, 682, 589, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 75, 77, 1369, 850, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -1502,7 +1515,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 300.0, 105.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 300.0, 105.0 ],
 					"text" : "/editing_this_module"
 				}
 
@@ -1556,6 +1569,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1597,7 +1619,7 @@
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 227.180008, 383.0, 368.75, 383.0 ],
+					"midpoints" : [ 227.180008, 383.0, 349.0, 383.0 ],
 					"source" : [ "obj-33", 4 ]
 				}
 
@@ -1733,50 +1755,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.son.brush.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/modulesDumper",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getModuleNames.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getModuleNames",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getModuleNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sd_sonicbrush_plot.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
