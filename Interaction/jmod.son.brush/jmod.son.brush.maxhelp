@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 528.0, 44.0, 827.0, 806.0 ],
+		"rect" : [ 571.0, 44.0, 827.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,259 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 18.632689,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 50.0, 94.0, 641.0, 468.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 80.0, 20.0, 550.0, 74.0 ],
+									"text" : "Here, the returned data corresponds to each row of the myDataSet. These, are contained in jmod.son.table /myTable.\n\nMore precisely, Instead of getting the points position, in this way, you can get all the dimensions of the index(s) being brushed"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 161.75, 106.0, 118.5, 67.0 ],
+									"text" : "> $myDataSet corresponds to the dataSet ID in jmod.son.table /myTable",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 4.0,
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 20.0, 196.0, 299.858154, 9.0 ],
+									"text" : "5781470. 1837402. 2863932. 4311052. 3801467. 4183958. 2028999. 3216172. 4147601. 5536176."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.358154, 154.0, 43.0, 19.0 ],
+									"text" : "thresh"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 29.358154, 85.0, 32.5, 19.0 ],
+									"text" : "- 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.358154, 60.0, 27.0, 19.0 ],
+									"text" : "iter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.358154, 130.0, 46.0, 19.0 ],
+									"saved_object_attributes" : 									{
+										"ftm_objref_conv" : 0,
+										"ftm_scope" : 1
+									}
+,
+									"text" : "ftm.list"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"#init" : "",
+									"#loadbang" : 0,
+									"#triggerall" : 0,
+									"#untuple" : 0,
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"ftm_objref_conv" : 0,
+									"ftm_scope" : 0,
+									"id" : "obj-12",
+									"maxclass" : "ftm.mess",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.358154, 110.0, 129.383789, 17.0 ],
+									"presentation_rect" : [ 29.358154, 110.0, 129.383789, 17.0 ],
+									"text" : [ "_($myDataSet rowref $1)" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-23",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.358154, 20.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 38.858154, 188.887985, 310.358154, 188.887985 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 38.858154, 151.0, 38.858154, 151.0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 130.0, 594.0, 150.0, 29.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p getRowData"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -100,7 +353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.0, 620.0, 245.0, 38.0 ],
+					"patching_rect" : [ 411.0, 600.0, 245.0, 38.0 ],
 					"text" : "LCD's position (x.y) of selected points\n"
 				}
 
@@ -152,13 +405,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 7.605376,
 					"id" : "obj-37",
-					"linecount" : 42,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 665.0, 319.0, 393.0 ],
-					"text" : "58. 347.40506 199.197586 99. 347.40506 132.798401 28. 322.139221 193.16127 106. 309.506317 152.919418 78. 227.392441 132.798401 11. 258.974731 74.447571 22. 240.02536 193.16127 215. 233.708893 96.580635 179. 499. 438.637115 6. 252.658264 112.677467 29. 252.658264 213.282288 46. 265.291199 158.955643 94. 208.443054 162.98 147. 309.506317 140.846771 26. 221.075974 112.677467 75. 303.19 160.967789 21. 227.392441 146.883087 51. 221.075974 217.306473 133. 303.19 146.883087 90. 277.924103 142.858902 37. 303.19 171.028198 8. 309.506317 189.137085 54. 341.088623 150.907272 114. 284.24057 130.786346 85. 290.557037 146.883087 9. 258.974731 179.07666 68. 202.126602 146.883087 102. 322.139221 229.379028 135. 334.772156 120.725838 131. 284.24057 116.701653 41. 353.721527 193.16127 50. 334.772156 152.919418 96. 309.506317 173.040344 55. 258.974731 179.07666 125. 227.392441 116.701653 109. 322.139221 221.330658 1. 265.291199 193.16127 39. 410.569672 181.088715 92. 296.873474 108.653282 182. 202.126602 293.766174 112. 334.772156 203.221771 123. 328.455688 146.883087 100. 271.607635 209.258102 115. 246.341812 183.1 7. 284.24057 199.197586 127. 233.708893 158.955643 59. 258.974731 217.306473 62. 227.392441 132.798401 107. 252.658264 213.282288 48. 347.40506 126.762161 45. 366.354462 152.919418 15. 360.037994 185.1129 31. 347.40506 158.955643 36. 328.455688 211.270142 108. 265.291199 267.608917 97. 309.506317 213.282288 121. 240.02536 136.822586 82. 164.227844 150.907272 118. 296.873474 126.762161 119. 290.557037 160.967789 101. 271.607635 164.991974 95. 277.924103 239.439545 16. 277.924103 158.955643 27. 258.974731 183.1 63. 315.822784 199.197586 116. 252.658264 164.991974 88. 360.037994 227.366989 168. 151.594925 428.57663 165. 151.594925 394.371002 126. 258.974731 169.016159 35. 328.455688 235.415359 74. 385.303833 179.07666 60. 284.24057 164.991974 34. 157.911392 152.919418 13. 322.139221 175.052475 12. 284.24057 217.306473 32. 322.139221 213.282288 83. 240.02536 160.967789 111. 322.139221 313.887115 104. 252.658264 130.786346 66. 258.974731 124.75 84. 208.443054 173.040344 89. 252.658264 152.919418 143. 296.873474 120.725838 64. 322.139221 191.149216 159. 12.632917 458.758057 105. 309.506317 158.955643 93. 296.873474 181.088715 86. 265.291199 251.512085 18. 309.506317 124.75 20. 315.822784 132.798401 132. 240.02536 181.088715 70. 246.341812 116.701653 23. 277.924103 199.197586 4. 277.924103 96.580635 52. 240.02536 235.415359 120. 290.557037 160.967789 139. 271.607635 120.725838 57. 176.860764 169.016159 76. 277.924103 185.1129 177. 69.481049 499. 103. 303.19 221.330658 113. 277.924103 169.016159 146. 385.303833 199.197586 71. 195.810135 179.07666 170. 18.949377 285.717712 136. 277.924103 175.052475"
+					"patching_rect" : [ 374.0, 645.0, 319.0, 14.0 ],
+					"text" : "202. 40.241947 71.78598 205. 58.350826 194.347397"
 				}
 
 			}
@@ -174,7 +426,7 @@
 					"patching_rect" : [ 674.0, 579.0, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
-						"ftm_scope" : 1
+						"ftm_scope" : 0
 					}
 ,
 					"text" : "ftm.list"
@@ -220,7 +472,7 @@
 					"patching_rect" : [ 385.0, 503.0, 208.369141, 81.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 300.0 ],
-					"size" : 107
+					"size" : 2
 				}
 
 			}
@@ -260,13 +512,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
-					"linecount" : 9,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 600.0, 307.0, 114.0 ],
-					"text" : "58. 99. 28. 106. 78. 11. 22. 0. 179. 6. 29. 46. 94. 147. 26. 75. 21. 51. 133. 90. 37. 8. 54. 114. 85. 9. 68. 102. 135. 131. 41. 50. 96. 55. 125. 109. 1. 39. 92. 182. 112. 123. 100. 115. 7. 127. 59. 62. 107. 48. 45. 15. 31. 36. 108. 97. 121. 82. 118. 119. 101. 95. 16. 27. 63. 116. 88. 168. 165. 126. 35. 74. 60. 34. 13. 12. 32. 83. 111. 104. 66. 84. 89. 143. 64. 159. 105. 93. 86. 18. 20. 132. 70. 23. 4. 52. 120. 139. 57. 76. 177. 103. 113. 146. 71. 170. 136."
+					"patching_rect" : [ 56.0, 655.0, 307.0, 17.0 ],
+					"text" : "202. 205."
 				}
 
 			}
@@ -800,7 +1051,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.0, 461.0, 192.0, 17.0 ],
-					"text" : "/mousePos 265 286"
+					"text" : "/mousePos 151 262"
 				}
 
 			}
@@ -940,7 +1191,17 @@
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 394.5, 591.5, 335.5, 591.5 ],
+					"midpoints" : [ 394.5, 591.5, 353.5, 591.5 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 394.5, 589.0, 139.5, 589.0 ],
 					"source" : [ "obj-70", 0 ]
 				}
 
