@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 441.0, 44.0, 917.0, 567.0 ],
+		"rect" : [ 453.0, 44.0, 917.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -142,7 +142,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "bang" ],
-									"patching_rect" : [ 50.0, 147.5, 46.0, 19.0 ],
+									"patching_rect" : [ 50.0, 147.5, 230.0, 19.0 ],
 									"text" : "t b b b"
 								}
 
@@ -170,7 +170,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 351.5, 228.0, 84.0, 17.0 ],
+									"patching_rect" : [ 310.0, 240.0, 84.0, 17.0 ],
 									"text" : "/import iris.txt"
 								}
 
@@ -260,7 +260,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 195.0, 250.0, 70.0, 19.0 ],
+					"patching_rect" : [ 201.0, 367.666656, 70.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -288,8 +288,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 455.0, 403.0, 79.0 ],
-					"text" : "The data file MUST be in the max search path or in the project folder. Otherwise, you'll not be able to import it, neither to recall it from a cue list or Preset.\n\nIF you manually fill the matrix, make sure you export it in one of those locations as well"
+					"patching_rect" : [ 85.0, 238.0, 295.0, 79.0 ],
+					"text" : "The data file MUST be in the max search path or in the project folder. Otherwise, you'll not be able to import it, neither to recall it from a cue list nor Preset.\n\nIF you manually fill the matrix, make sure you export it in one of those locations as well"
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 455.0, 158.0, 19.0 ],
+					"patching_rect" : [ 43.0, 238.0, 158.0, 19.0 ],
 					"text" : "NOTE:"
 				}
 
@@ -317,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 219.5, 167.0, 19.0 ],
+					"patching_rect" : [ 510.0, 219.5, 167.0, 19.0 ],
 					"text" : "FILL"
 				}
 
@@ -332,7 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.842773, 123.0, 167.0, 19.0 ],
+					"patching_rect" : [ 485.842773, 123.0, 167.0, 19.0 ],
 					"text" : "SIZE"
 				}
 
@@ -348,8 +348,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.75, 77.0, 358.25, 38.0 ],
-					"text" : "Instead of importing a dataset, you can also fill the matrix manually."
+					"patching_rect" : [ 500.75, 77.0, 358.25, 38.0 ],
+					"text" : "Instead of importing a dataset, you can also fill the matrix manually.",
+					"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -363,7 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.5, 137.0, 68.0, 19.0 ],
+					"patching_rect" : [ 629.5, 137.0, 68.0, 19.0 ],
 					"text" : "loadmess 3"
 				}
 
@@ -377,7 +378,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 561.0, 137.0, 150.0, 19.0 ],
+					"patching_rect" : [ 551.0, 137.0, 150.0, 19.0 ],
 					"text" : "col"
 				}
 
@@ -391,7 +392,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.842773, 137.0, 150.0, 19.0 ],
+					"patching_rect" : [ 485.842773, 137.0, 150.0, 19.0 ],
 					"text" : "row"
 				}
 
@@ -406,7 +407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 748.0, 137.0, 68.0, 19.0 ],
+					"patching_rect" : [ 738.0, 137.0, 68.0, 19.0 ],
 					"text" : "loadmess 4"
 				}
 
@@ -421,7 +422,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 561.0, 155.5, 50.0, 19.0 ]
+					"patching_rect" : [ 551.0, 155.5, 50.0, 19.0 ]
 				}
 
 			}
@@ -434,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 561.0, 175.338455, 32.5, 19.0 ],
+					"patching_rect" : [ 551.0, 175.338455, 32.5, 19.0 ],
 					"text" : "t b l"
 				}
 
@@ -449,7 +450,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 495.842773, 155.5, 50.0, 19.0 ]
+					"patching_rect" : [ 485.842773, 155.5, 50.0, 19.0 ]
 				}
 
 			}
@@ -468,8 +469,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.842773, 198.5, 97.657227, 17.0 ],
-					"presentation_rect" : [ 495.842773, 198.5, 97.657227, 17.0 ],
+					"patching_rect" : [ 485.842773, 198.5, 97.657227, 17.0 ],
+					"presentation_rect" : [ 485.842773, 198.5, 97.657227, 17.0 ],
 					"text" : [ "_size $1 $2" ]
 				}
 
@@ -484,7 +485,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 315.0, 225.0, 19.0 ],
+					"patching_rect" : [ 485.0, 315.0, 225.0, 19.0 ],
 					"text" : "Remote functions (using FTM syntax)"
 				}
 
@@ -497,7 +498,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 464.666626, 55.0, 19.0 ],
+					"patching_rect" : [ 485.0, 464.666626, 55.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -517,7 +518,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 472.666626, 281.0, 19.0 ],
+					"patching_rect" : [ 605.0, 472.666626, 281.0, 19.0 ],
 					"text" : "More functions available at ftm.fmat help patch."
 				}
 
@@ -531,7 +532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 643.0, 282.5, 143.0, 19.0 ],
+					"patching_rect" : [ 633.0, 282.5, 143.0, 19.0 ],
 					"text" : "set values of given column"
 				}
 
@@ -551,8 +552,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 282.5, 121.314453, 17.0 ],
-					"presentation_rect" : [ 520.0, 282.5, 121.314453, 17.0 ],
+					"patching_rect" : [ 510.0, 282.5, 121.314453, 17.0 ],
+					"presentation_rect" : [ 510.0, 282.5, 121.314453, 17.0 ],
 					"text" : [ "_setcol 1 1 11 21 31 41" ]
 				}
 
@@ -572,8 +573,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 260.5, 100.381836, 17.0 ],
-					"presentation_rect" : [ 520.0, 260.5, 100.381836, 17.0 ],
+					"patching_rect" : [ 510.0, 260.5, 100.381836, 17.0 ],
+					"presentation_rect" : [ 510.0, 260.5, 100.381836, 17.0 ],
 					"text" : [ "_setrow 1 0 1 2 3 4" ]
 				}
 
@@ -593,8 +594,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 238.0, 91.728516, 17.0 ],
-					"presentation_rect" : [ 520.0, 238.0, 91.728516, 17.0 ],
+					"patching_rect" : [ 510.0, 238.0, 91.728516, 17.0 ],
+					"presentation_rect" : [ 510.0, 238.0, 91.728516, 17.0 ],
 					"text" : [ "_set 0 0 10 10 10" ]
 				}
 
@@ -608,7 +609,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 643.0, 238.0, 248.0, 19.0 ],
+					"patching_rect" : [ 633.0, 238.0, 248.0, 19.0 ],
 					"text" : "set values from indicated element (row by row)"
 				}
 
@@ -622,7 +623,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 643.0, 259.5, 125.0, 19.0 ],
+					"patching_rect" : [ 633.0, 259.5, 125.0, 19.0 ],
 					"text" : "set values of given row"
 				}
 
@@ -636,7 +637,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 437.666626, 275.0, 19.0 ],
+					"patching_rect" : [ 605.0, 437.666626, 275.0, 19.0 ],
 					"text" : "calculate square of absolute values of current values"
 				}
 
@@ -650,7 +651,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 413.666626, 237.0, 19.0 ],
+					"patching_rect" : [ 605.0, 413.666626, 237.0, 19.0 ],
 					"text" : "calculate exponent function of current values"
 				}
 
@@ -664,7 +665,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 392.666656, 219.0, 19.0 ],
+					"patching_rect" : [ 605.0, 392.666656, 219.0, 19.0 ],
 					"text" : "calculate safe logarithm of current values"
 				}
 
@@ -679,7 +680,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 365.666656, 281.0, 31.0 ],
+					"patching_rect" : [ 605.0, 365.666656, 281.0, 31.0 ],
 					"text" : "calculate safe logarithm of absolute values of current values"
 				}
 
@@ -699,8 +700,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 437.666626, 116.054688, 17.0 ],
-					"presentation_rect" : [ 495.0, 437.666626, 116.054688, 17.0 ],
+					"patching_rect" : [ 485.0, 437.666626, 116.054688, 17.0 ],
+					"presentation_rect" : [ 485.0, 437.666626, 116.054688, 17.0 ],
 					"text" : [ "_($myDataSet sqrabs)" ]
 				}
 
@@ -720,8 +721,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 415.666626, 101.181641, 17.0 ],
-					"presentation_rect" : [ 495.0, 415.666626, 101.181641, 17.0 ],
+					"patching_rect" : [ 485.0, 415.666626, 101.181641, 17.0 ],
+					"presentation_rect" : [ 485.0, 415.666626, 101.181641, 17.0 ],
 					"text" : [ "_($myDataSet exp)" ]
 				}
 
@@ -741,8 +742,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 393.666656, 98.120117, 17.0 ],
-					"presentation_rect" : [ 495.0, 393.666656, 98.120117, 17.0 ],
+					"patching_rect" : [ 485.0, 393.666656, 98.120117, 17.0 ],
+					"presentation_rect" : [ 485.0, 393.666656, 98.120117, 17.0 ],
 					"text" : [ "_($myDataSet log)" ]
 				}
 
@@ -762,8 +763,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 366.666656, 115.566399, 17.0 ],
-					"presentation_rect" : [ 495.0, 366.666656, 115.566399, 17.0 ],
+					"patching_rect" : [ 485.0, 366.666656, 115.566399, 17.0 ],
+					"presentation_rect" : [ 485.0, 366.666656, 115.566399, 17.0 ],
 					"text" : [ "_($myDataSet logabs)" ]
 				}
 
@@ -783,8 +784,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 344.0, 100.522461, 17.0 ],
-					"presentation_rect" : [ 495.0, 344.0, 100.522461, 17.0 ],
+					"patching_rect" : [ 485.0, 344.0, 100.522461, 17.0 ],
+					"presentation_rect" : [ 485.0, 344.0, 100.522461, 17.0 ],
 					"text" : [ "_($myDataSet abs)" ]
 				}
 
@@ -798,7 +799,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 344.0, 225.0, 19.0 ],
+					"patching_rect" : [ 605.0, 344.0, 225.0, 19.0 ],
 					"text" : "calculate absolute values of current values"
 				}
 
@@ -811,8 +812,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 415.666626, 78.0, 19.0 ],
-					"text" : "print DataSet"
+					"patching_rect" : [ 324.0, 508.333282, 86.0, 19.0 ],
+					"text" : "print DumpOut"
 				}
 
 			}
@@ -838,7 +839,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 250.0, 128.0, 19.0 ],
+					"patching_rect" : [ 43.0, 367.666656, 128.0, 19.0 ],
 					"text" : "r jmod.myDataSet.help"
 				}
 
@@ -852,7 +853,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 415.666626, 268.0, 17.0 ],
+					"patching_rect" : [ 43.0, 508.333282, 268.0, 17.0 ],
 					"text" : "/colNames colA - ColB - ColC - colD - colE"
 				}
 
@@ -867,14 +868,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 89.5, 340.0, 116.0 ],
+					"patching_rect" : [ 40.0, 107.0, 340.0, 116.0 ],
 					"text" : "Import, store & export a n-dimensional dataset using Ftm.Fmat\n\nRequires an unique ID w/o spaces\n\nPanel: Table interface\n\nRight inlet - messages to FTM.fmat \n\nRight Outlet - Return Data set"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/template" ],
+					"args" : [ "/myData" ],
 					"id" : "obj-8",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -882,7 +883,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 37.0, 301.0, 300.0, 105.0 ],
+					"patching_rect" : [ 43.0, 393.666656, 300.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
@@ -900,7 +901,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -964,7 +965,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 615.0, 514.0, 172.0, 24.0 ],
+					"patching_rect" : [ 605.0, 514.0, 172.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -986,12 +987,11 @@
 				"box" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
 					"border" : 2,
-					"bordercolor" : [ 1.0, 0.0, 0.0, 0.49 ],
-					"id" : "obj-14",
+					"id" : "obj-16",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 445.5, 445.0, 99.5 ],
+					"patching_rect" : [ 480.0, 118.0, 410.0, 427.0 ],
 					"rounded" : 25
 				}
 
@@ -1000,11 +1000,12 @@
 				"box" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
 					"border" : 2,
-					"id" : "obj-16",
+					"bordercolor" : [ 1.0, 0.0, 0.0, 0.49 ],
+					"id" : "obj-14",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 118.0, 410.0, 427.0 ],
+					"patching_rect" : [ 42.0, 230.75, 348.0, 94.25 ],
 					"rounded" : 25
 				}
 
@@ -1015,7 +1016,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 529.5, 295.5, 327.5, 295.5 ],
+					"midpoints" : [ 519.5, 337.5, 333.5, 337.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1034,7 +1035,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 529.5, 294.5, 327.5, 294.5 ],
+					"midpoints" : [ 519.5, 336.5, 333.5, 336.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1044,7 +1045,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 529.5, 294.25, 327.5, 294.25 ],
+					"midpoints" : [ 519.5, 336.25, 333.5, 336.25 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1117,7 +1118,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 570.5, 198.0, 505.342773, 198.0 ],
+					"midpoints" : [ 560.5, 198.0, 495.342773, 198.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1145,7 +1146,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 505.342773, 295.75, 327.5, 295.75 ],
+					"midpoints" : [ 495.342773, 338.75, 333.5, 338.75 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1173,7 +1174,7 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 410.5, 284.5, 410.5 ],
+					"midpoints" : [ 52.5, 503.166656, 301.5, 503.166656 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1181,8 +1182,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-help",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1202,43 +1203,43 @@
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/jamomaPath",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}

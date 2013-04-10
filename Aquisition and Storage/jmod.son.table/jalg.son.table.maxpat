@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 400.0, 72.0, 20.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -113,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -150,7 +136,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -320,7 +306,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -640,7 +626,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -949,7 +935,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1134,7 +1120,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 1,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -1651,7 +1637,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -2134,7 +2120,7 @@
 					"patching_rect" : [ 220.880127, 692.849304, 224.085068, 20.0 ],
 					"persistence" : 0,
 					"presentation_rect" : [ 220.880127, 692.849304, 224.085068, 20.19096 ],
-					"scope" : 0,
+					"scope" : 1,
 					"text" : "mat 1 100"
 				}
 
@@ -2163,8 +2149,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 138.880127, 55.0, 716.119873, 20.0 ],
-					"text" : "jcom.oscroute /ID /dump /save /import /clear /colNames /data /fileName"
+					"patching_rect" : [ 138.880127, 55.0, 431.0, 20.0 ],
+					"text" : "jcom.oscroute /dataSetID /dump /save /import /clear /colNames /data /fileName"
 				}
 
 			}
@@ -2231,7 +2217,7 @@
 					"patching_rect" : [ 12.905273, 682.157349, 120.113754, 21.0 ],
 					"persistence" : 0,
 					"presentation_rect" : [ 12.905273, 682.157349, 120.113754, 21.700832 ],
-					"scope" : 0,
+					"scope" : 1,
 					"text" : "fmat"
 				}
 
@@ -2279,7 +2265,7 @@
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 235.520111, 199.452972, 22.405273, 199.452972 ],
+					"midpoints" : [ 199.880127, 199.452972, 22.405273, 199.452972 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -2289,7 +2275,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 409.800079, 103.0, 409.5, 103.0 ],
+					"midpoints" : [ 302.880127, 103.0, 409.5, 103.0 ],
 					"source" : [ "obj-24", 3 ]
 				}
 
@@ -2299,7 +2285,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 496.940063, 103.0, 322.660095, 103.0 ],
+					"midpoints" : [ 354.380127, 103.0, 322.660095, 103.0 ],
 					"source" : [ "obj-24", 4 ]
 				}
 
@@ -2318,7 +2304,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 496.940063, 290.0, 592.380127, 290.0 ],
+					"midpoints" : [ 354.380127, 290.0, 592.380127, 290.0 ],
 					"source" : [ "obj-24", 4 ]
 				}
 
@@ -2328,7 +2314,7 @@
 					"destination" : [ "obj-55", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 584.080078, 243.702972, 416.380127, 243.702972 ],
+					"midpoints" : [ 405.880127, 243.702972, 416.380127, 243.702972 ],
 					"source" : [ "obj-24", 5 ]
 				}
 
@@ -2430,14 +2416,29 @@
 				}
 
 			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
 , 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

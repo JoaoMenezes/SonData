@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -260,8 +260,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 543.5, 120.860527, 570.0, 38.0 ],
-					"text" : "jcom.parameter ID @type string @repetitions/allow 0 @description \"Dataset ID - must be unique and without spaces\" @priority 1"
+					"patching_rect" : [ 543.5, 120.860527, 599.0, 38.0 ],
+					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 0 @description \"Dataset ID - must be unique and without spaces\" @priority 1"
 				}
 
 			}
@@ -439,7 +439,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -462,7 +462,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -553,7 +552,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -645,8 +644,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 261.62738, 66.011719, 18.0 ],
-													"presentation_rect" : [ 50.0, 261.62738, 66.011719, 18.0 ]
+													"patching_rect" : [ 50.0, 261.62738, 66.011719, 17.40625 ],
+													"presentation_rect" : [ 50.0, 261.62738, 66.011719, 17.40625 ]
 												}
 
 											}
@@ -679,8 +678,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 315.0, 74.689453, 18.0 ],
-													"presentation_rect" : [ 50.0, 315.0, 74.689453, 18.0 ],
+													"patching_rect" : [ 50.0, 315.0, 74.689453, 17.40625 ],
+													"presentation_rect" : [ 50.0, 315.0, 74.689453, 17.40625 ],
 													"text" : [ "_set $1 matrix" ]
 												}
 
@@ -700,8 +699,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 55.318359, 225.0, 45.363281, 18.0 ],
-													"presentation_rect" : [ 55.318359, 225.0, 45.363281, 18.0 ],
+													"patching_rect" : [ 55.318359, 225.0, 45.363281, 17.40625 ],
+													"presentation_rect" : [ 55.318359, 225.0, 45.363281, 17.40625 ],
 													"text" : [ "_#set $1" ]
 												}
 
@@ -720,7 +719,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 1,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -1092,7 +1091,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 180.0, 146.0, 319.0, 19.0 ],
-									"text" : "jcom.oscroute /ID /import /dump"
+									"text" : "jcom.oscroute /dataSetID /import /dump"
 								}
 
 							}
@@ -1166,7 +1165,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1766,15 +1765,15 @@
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

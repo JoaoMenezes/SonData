@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 417.0 ],
@@ -107,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 331.0, 192.0, 17.0 ],
-					"text" : "/view/highlight none"
+					"text" : "/module_name /template"
 				}
 
 			}
@@ -152,8 +153,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 686.0, 75.0, 443.0, 449.0 ],
@@ -192,14 +194,15 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "jmod.input~" ],
+									"args" : [ "jmod.son.brush" ],
 									"id" : "obj-2",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.preset_params.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 34.0, 374.0, 347.0 ]
+									"patching_rect" : [ 31.0, 34.0, 374.0, 351.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 								}
 
 							}
@@ -281,57 +284,57 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-help",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.template.control.maxpat",
-				"bootpath" : "/Applications/Max6/patches/templates",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/templates",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-templates",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/documentation/jamoma-templates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1 (32)/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
