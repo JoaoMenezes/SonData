@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 453.0, 44.0, 917.0, 567.0 ],
+		"rect" : [ 100.0, 100.0, 917.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -65,6 +65,20 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 351.5, 228.0, 151.0, 17.0 ],
+									"text" : "/dataSetID myDataSetHELP"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
@@ -72,7 +86,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 182.0, 63.0, 20.0 ],
+									"patching_rect" : [ 96.0, 170.0, 63.0, 20.0 ],
 									"text" : "delay 100"
 								}
 
@@ -121,15 +135,15 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-24",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 110.0, 53.0, 19.0 ],
-									"text" : "deferlow"
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 50.0, 110.0, 63.0, 20.0 ],
+									"text" : "delay 300"
 								}
 
 							}
@@ -140,10 +154,10 @@
 									"id" : "obj-23",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "bang", "bang", "bang" ],
-									"patching_rect" : [ 50.0, 147.5, 230.0, 19.0 ],
-									"text" : "t b b b"
+									"numoutlets" : 4,
+									"outlettype" : [ "bang", "bang", "bang", "bang" ],
+									"patching_rect" : [ 50.0, 147.5, 320.5, 19.0 ],
+									"text" : "t b b b b"
 								}
 
 							}
@@ -170,7 +184,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.0, 240.0, 84.0, 17.0 ],
+									"patching_rect" : [ 230.0, 240.0, 84.0, 17.0 ],
 									"text" : "/import iris.txt"
 								}
 
@@ -223,6 +237,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -232,10 +255,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
+									"source" : [ "obj-23", 3 ]
 								}
 
 							}
@@ -254,6 +277,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -637,7 +669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 437.666626, 275.0, 19.0 ],
+					"patching_rect" : [ 626.0, 437.666626, 275.0, 19.0 ],
 					"text" : "calculate square of absolute values of current values"
 				}
 
@@ -651,7 +683,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 413.666626, 237.0, 19.0 ],
+					"patching_rect" : [ 626.0, 413.666626, 237.0, 19.0 ],
 					"text" : "calculate exponent function of current values"
 				}
 
@@ -665,7 +697,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 392.666656, 219.0, 19.0 ],
+					"patching_rect" : [ 626.0, 392.666656, 219.0, 19.0 ],
 					"text" : "calculate safe logarithm of current values"
 				}
 
@@ -680,7 +712,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 365.666656, 281.0, 31.0 ],
+					"patching_rect" : [ 626.0, 365.666656, 281.0, 31.0 ],
 					"text" : "calculate safe logarithm of absolute values of current values"
 				}
 
@@ -700,9 +732,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 437.666626, 116.054688, 17.0 ],
-					"presentation_rect" : [ 485.0, 437.666626, 116.054688, 17.0 ],
-					"text" : [ "_($myDataSet sqrabs)" ]
+					"patching_rect" : [ 485.0, 437.666626, 141.489258, 17.0 ],
+					"presentation_rect" : [ 485.0, 437.666626, 141.489258, 17.0 ],
+					"text" : [ "_($myDataSetHELP sqrabs)" ]
 				}
 
 			}
@@ -721,9 +753,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 415.666626, 101.181641, 17.0 ],
-					"presentation_rect" : [ 485.0, 415.666626, 101.181641, 17.0 ],
-					"text" : [ "_($myDataSet exp)" ]
+					"patching_rect" : [ 485.0, 415.666626, 126.616203, 17.0 ],
+					"presentation_rect" : [ 485.0, 415.666626, 126.616203, 17.0 ],
+					"text" : [ "_($myDataSetHELP exp)" ]
 				}
 
 			}
@@ -742,9 +774,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 393.666656, 98.120117, 17.0 ],
-					"presentation_rect" : [ 485.0, 393.666656, 98.120117, 17.0 ],
-					"text" : [ "_($myDataSet log)" ]
+					"patching_rect" : [ 485.0, 393.666656, 123.55468, 17.0 ],
+					"presentation_rect" : [ 485.0, 393.666656, 123.55468, 17.0 ],
+					"text" : [ "_($myDataSetHELP log)" ]
 				}
 
 			}
@@ -763,9 +795,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 366.666656, 115.566399, 17.0 ],
-					"presentation_rect" : [ 485.0, 366.666656, 115.566399, 17.0 ],
-					"text" : [ "_($myDataSet logabs)" ]
+					"patching_rect" : [ 485.0, 366.666656, 141.000977, 17.0 ],
+					"presentation_rect" : [ 485.0, 366.666656, 141.000977, 17.0 ],
+					"text" : [ "_($myDataSetHELP logabs)" ]
 				}
 
 			}
@@ -784,9 +816,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 344.0, 100.522461, 17.0 ],
-					"presentation_rect" : [ 485.0, 344.0, 100.522461, 17.0 ],
-					"text" : [ "_($myDataSet abs)" ]
+					"patching_rect" : [ 485.0, 344.0, 125.957024, 17.0 ],
+					"presentation_rect" : [ 485.0, 344.0, 125.957024, 17.0 ],
+					"text" : [ "_($myDataSetHELP abs)" ]
 				}
 
 			}
@@ -799,7 +831,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 344.0, 225.0, 19.0 ],
+					"patching_rect" : [ 626.0, 344.0, 225.0, 19.0 ],
 					"text" : "calculate absolute values of current values"
 				}
 
@@ -991,7 +1023,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 118.0, 410.0, 427.0 ],
+					"patching_rect" : [ 480.0, 118.0, 430.0, 427.0 ],
 					"rounded" : 25
 				}
 
@@ -1189,14 +1221,14 @@
 			}
 , 			{
 				"name" : "jmod.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
