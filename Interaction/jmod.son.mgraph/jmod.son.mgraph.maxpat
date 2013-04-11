@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 644.0, 272.0, 437.0, 251.0 ],
+		"rect" : [ 670.0, 283.0, 770.0, 567.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -7781,7 +7781,7 @@
 									"autoupdate" : 40.0,
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"cursor_position" : 0.187646,
+									"cursor_position" : 0.0,
 									"cursor_size" : 2,
 									"cursor_visible" : 1,
 									"domain_bounds" : [ 0.0, 0.0 ],
@@ -9414,7 +9414,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-31",
-					"items" : [ "/editing_this_module", ",", "/myTable" ],
+					"items" : "/editing_this_module",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9432,7 +9432,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-28",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9454,7 +9454,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 485.0, 530.0, 546.0, 19.0 ],
-					"text" : "jcom.parameter col/E @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 6"
+					"text" : "jcom.parameter col/5 @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 6"
 				}
 
 			}
@@ -9464,7 +9464,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-25",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9485,8 +9485,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 485.0, 481.0, 548.0, 19.0 ],
-					"text" : "jcom.parameter col/D @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 5"
+					"patching_rect" : [ 485.0, 481.0, 546.0, 19.0 ],
+					"text" : "jcom.parameter col/4 @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 5"
 				}
 
 			}
@@ -9496,7 +9496,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9517,8 +9517,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 485.0, 431.0, 547.0, 19.0 ],
-					"text" : "jcom.parameter col/C @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 4"
+					"patching_rect" : [ 485.0, 431.0, 546.0, 19.0 ],
+					"text" : "jcom.parameter col/3 @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 4"
 				}
 
 			}
@@ -9528,7 +9528,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9546,7 +9546,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
-					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9567,8 +9567,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 485.0, 380.0, 547.0, 19.0 ],
-					"text" : "jcom.parameter col/B @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 3"
+					"patching_rect" : [ 485.0, 380.0, 546.0, 19.0 ],
+					"text" : "jcom.parameter col/2 @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 3"
 				}
 
 			}
@@ -9581,8 +9581,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 485.0, 325.0, 555.0, 19.0 ],
-					"text" : "jcom.parameter col/A @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 2"
+					"patching_rect" : [ 485.0, 325.0, 546.0, 19.0 ],
+					"text" : "jcom.parameter col/1 @type integer @repetitions/allow 1 @description \"select column to plot\" @priority 2"
 				}
 
 			}

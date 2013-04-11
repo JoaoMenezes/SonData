@@ -476,7 +476,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.973389, 309.0, 80.71875, 18.0 ],
+									"patching_rect" : [ 146.973389, 309.0, 80.71875, 17.40625 ],
 									"presentation_rect" : [ 146.973389, 309.0, 80.71875, 17.40625 ],
 									"text" : [ "_($d5 get $1 4)" ]
 								}
@@ -497,7 +497,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.973389, 286.0, 80.71875, 18.0 ],
+									"patching_rect" : [ 122.973389, 286.0, 80.71875, 17.40625 ],
 									"presentation_rect" : [ 122.973389, 286.0, 80.71875, 17.40625 ],
 									"text" : [ "_($d4 get $1 3)" ]
 								}
@@ -518,7 +518,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.973389, 263.0, 80.71875, 18.0 ],
+									"patching_rect" : [ 98.973389, 263.0, 80.71875, 17.40625 ],
 									"presentation_rect" : [ 98.973389, 263.0, 80.71875, 17.40625 ],
 									"text" : [ "_($d3 get $1 2)" ]
 								}
@@ -539,7 +539,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 74.973389, 240.0, 80.71875, 18.0 ],
+									"patching_rect" : [ 74.973389, 240.0, 80.71875, 17.40625 ],
 									"presentation_rect" : [ 74.973389, 240.0, 80.71875, 17.40625 ],
 									"text" : [ "_($d2 get $1 1)" ]
 								}
@@ -560,7 +560,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.473389, 217.0, 80.71875, 18.0 ],
+									"patching_rect" : [ 50.473389, 217.0, 80.71875, 17.40625 ],
 									"presentation_rect" : [ 50.473389, 217.0, 80.71875, 17.40625 ],
 									"text" : [ "_($d1 get $1 0)" ]
 								}
@@ -595,7 +595,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.024963, 100.0, 19.347656, 18.0 ],
+									"patching_rect" : [ 50.024963, 100.0, 19.347656, 17.40625 ],
 									"presentation_rect" : [ 50.024963, 100.0, 19.347656, 17.40625 ],
 									"text" : [ "_$1" ]
 								}
@@ -644,7 +644,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 131.024963, 100.0, 19.347656, 18.0 ],
+									"patching_rect" : [ 131.024963, 100.0, 19.347656, 17.40625 ],
 									"presentation_rect" : [ 131.024963, 100.0, 19.347656, 17.40625 ],
 									"text" : [ "_$2" ]
 								}
@@ -1248,8 +1248,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 159.0, 20.0 ],
-									"text" : "jcom.oscroute /A /B /C /D /E"
+									"patching_rect" : [ 50.0, 100.0, 152.0, 20.0 ],
+									"text" : "jcom.oscroute /1 /2 /3 /4 /5"
 								}
 
 							}
@@ -1517,8 +1517,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 300.0, 32.021484, 18.0 ],
-									"presentation_rect" : [ 50.0, 300.0, 32.021484, 18.0 ],
+									"patching_rect" : [ 50.0, 300.0, 32.021484, 17.40625 ],
+									"presentation_rect" : [ 50.0, 300.0, 32.021484, 17.40625 ],
 									"text" : [ "_$hey" ]
 								}
 

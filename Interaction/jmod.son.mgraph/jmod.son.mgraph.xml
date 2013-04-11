@@ -5,11 +5,11 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='col/A' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/B' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/C' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/D' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/E' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/1' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/2' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/3' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/4' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='col/5' type='integer' priority='2' mixweight='1'>0</item>
     <item name='cursor' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='dataSetID' type='string' priority='1' mixweight='1'>0</item>
     <item name='duration' type='integer' priority='0' mixweight='1'>10</item>
