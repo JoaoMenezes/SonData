@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 550.0, 44.0, 890.0, 632.0 ],
+		"rect" : [ 346.0, 44.0, 890.0, 632.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 400.0, 620.0, 99.0, 19.0 ],
+					"text" : "print InsideGraph"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
@@ -142,7 +155,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 32.0, 70.0, 1408.0, 780.0 ],
+						"rect" : [ 32.0, 44.0, 588.0, 248.0 ],
 						"bgcolor" : [ 0.989661, 0.995146, 0.999866, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3904,7 +3917,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1027.5, 420.704102, 67.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 32, 44, 620, 292, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -7852,7 +7865,7 @@
 									"autoupdate" : 40.0,
 									"bgcolor" : [ 0.909804, 0.909804, 0.909804, 1.0 ],
 									"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"cursor_position" : 0.0,
+									"cursor_position" : 3.0,
 									"cursor_size" : 2,
 									"cursor_visible" : 1,
 									"domain_bounds" : [ 0.0, 0.0 ],
@@ -7885,9 +7898,9 @@
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 0,
-									"region_begin" : 5.171642,
+									"region_begin" : 0.0,
 									"region_color" : [ 0.049473, 0.419442, 0.993446, 1.0 ],
-									"region_end" : 6.078358,
+									"region_end" : 59.883911,
 									"split_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 44,
 									"split_visible" : 0,
@@ -8061,7 +8074,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.032738, 1007.031982, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 32, 44, 620, 292, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -8715,13 +8728,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-40",
-					"items" : "<empty>",
+					"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 293.5, 580.0, 100.0, 19.0 ],
+					"patching_rect" : [ 295.0, 580.0, 100.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 52.0, 70.5, 74.5, 19.0 ]
 				}
@@ -8737,7 +8750,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 400.0, 580.0, 541.0, 19.0 ],
-					"text" : "jcom.parameter col @type integer @repetitions/allow 1 @description \"choose column to plot\" @priority 2"
+					"text" : "jcom.parameter col @type integer @repetitions/allow 1 @priority 2 @description \"choose column to plot\""
 				}
 
 			}
@@ -8747,7 +8760,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-33",
-					"items" : "/editing_this_module",
+					"items" : [ "/myTable", ",", "/myGraph" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8769,8 +8782,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 212.5, 487.0, 539.0, 31.0 ],
-					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 1 @description \"Name of associated dataset (jmod.son.table)\" @priority 1"
+					"patching_rect" : [ 210.0, 486.5, 599.0, 31.0 ],
+					"text" : "jcom.parameter dataSetID @type string @repetitions/allow 0 @priority 1 @description \"Name of associated dataset (jmod.son.table)\""
 				}
 
 			}
@@ -9437,6 +9450,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"has_panel" : 1,
 					"id" : "obj-16",
 					"maxclass" : "jcom.ui",
@@ -9445,7 +9459,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/myGraph"
 				}
 
 			}
@@ -9544,6 +9558,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9622,7 +9645,7 @@
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 45.5, 578.25, 303.0, 578.25 ],
+					"midpoints" : [ 45.5, 578.25, 304.5, 578.25 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -9653,114 +9676,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jalg.son.graph.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.graph",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.editor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mnm.minmax.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
