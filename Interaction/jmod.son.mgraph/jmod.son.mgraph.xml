@@ -6,22 +6,22 @@
 >
   <preset number='1' name='default'>
     <item name='col/1' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/2' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/3' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/4' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='col/5' type='integer' priority='2' mixweight='1'>0</item>
-    <item name='cursor' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='col/2' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='col/3' type='integer' priority='4' mixweight='1'>0</item>
+    <item name='col/4' type='integer' priority='5' mixweight='1'>0</item>
+    <item name='col/5' type='integer' priority='6' mixweight='1'>0</item>
+    <item name='cursor' type='decimal' priority='8' mixweight='1'>0</item>
     <item name='dataSetID' type='string' priority='1' mixweight='1'>0</item>
-    <item name='duration' type='integer' priority='0' mixweight='1'>10</item>
-    <item name='lines' type='string' priority='0' mixweight='1'>lines</item>
+    <item name='duration' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='lines' type='string' priority='0' mixweight='1'>0</item>
     <item name='loop' type='boolean' priority='2' mixweight='1'>0</item>
     <item name='pause' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='play' type='boolean' priority='10' mixweight='1'>0</item>
     <item name='rulerUnit' type='string' priority='2' mixweight='1'>0</item>
-    <item name='region' type='decimalArray' priority='0' mixweight='1'>0.000000</item>
-    <item name='tool' type='string' priority='2' mixweight='1'>cursor</item>
+    <item name='tool' type='string' priority='2' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
-    <item name='viewGrid' type='integerArray' priority='2' mixweight='1'>0 0 </item>
-    <item name='viewRuler' type='integerArray' priority='2' mixweight='1'>0 1 </item>
+    <item name='viewGrid' type='integerArray' priority='2' mixweight='1'>0</item>
+    <item name='viewRuler' type='integerArray' priority='2' mixweight='1'>0</item>
   </preset>
 </jamoma>
