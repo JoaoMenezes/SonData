@@ -10,7 +10,7 @@
     <item name='audio/gain' type='decimal' priority='0' mixweight='1'>48.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='numVoices' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='pulsar/formantFreq.1' type='decimal' priority='0' mixweight='1'>15.000000</item>
+    <item name='pulsar/formantFreq.1' type='decimal' priority='0' mixweight='1'>20.000000</item>
     <item name='pulsar/freq.1' type='integer' priority='0' mixweight='1'>440</item>
     <item name='pulsar/period.1' type='decimal' priority='0' mixweight='1'>10.000000</item>
     <item name='pulsar/waveForm.1' type='integer' priority='0' mixweight='1'>0</item>
