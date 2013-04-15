@@ -5,20 +5,19 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='a_bang' type='generic' priority='1' mixweight='1'>0</item>
     <item name='allocVoice' type='integer' priority='2' mixweight='1'>1</item>
     <item name='audio/bypass' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>63.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='fof/1stAmp.1' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='fof/1stFreq.1' type='decimal' priority='0' mixweight='1'>290.000000</item>
-    <item name='fof/2ndAmp.1' type='integer' priority='0' mixweight='1'>-15</item>
-    <item name='fof/2ndFreq.1' type='decimal' priority='0' mixweight='1'>850.000000</item>
-    <item name='fof/3rdAmp.1' type='integer' priority='0' mixweight='1'>-27</item>
-    <item name='fof/3rdFreq.1' type='decimal' priority='0' mixweight='1'>1980.000000</item>
-    <item name='fof/bandwith.1' type='decimal' priority='0' mixweight='1'>2064.394775</item>
-    <item name='fof/fundFreq.1' type='decimal' priority='0' mixweight='1'>110.000000</item>
-    <item name='numVoices' type='integer' priority='1' mixweight='1'>1</item>
+    <item name='fof/1stAmp.1' type='integer' priority='5' mixweight='1'>0</item>
+    <item name='fof/1stFreq.1' type='decimal' priority='4' mixweight='1'>290.000000</item>
+    <item name='fof/2ndAmp.1' type='integer' priority='7' mixweight='1'>-15</item>
+    <item name='fof/2ndFreq.1' type='decimal' priority='6' mixweight='1'>850.000000</item>
+    <item name='fof/3rdAmp.1' type='integer' priority='9' mixweight='1'>-27</item>
+    <item name='fof/3rdFreq.1' type='decimal' priority='8' mixweight='1'>1980.000000</item>
+    <item name='fof/bandwith.1' type='decimal' priority='10' mixweight='1'>1070.000000</item>
+    <item name='fof/fundFreq.1' type='decimal' priority='3' mixweight='1'>110.000000</item>
+    <item name='numVoices' type='integer' priority='1' mixweight='10'>1</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>
