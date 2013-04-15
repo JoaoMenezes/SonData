@@ -5,19 +5,21 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='5755_' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='3158_' type='integer' priority='3' mixweight='1'>1</item>
     <item name='allocVoice' type='integer' priority='2' mixweight='1'>1</item>
     <item name='audio/bypass' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>65.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='grain/delaylength_ms.1' type='integer' priority='3' mixweight='1'>0</item>
-    <item name='grain/durVariation.1' type='decimal' priority='3' mixweight='1'>5.000000</item>
-    <item name='grain/duration.1' type='decimal' priority='3' mixweight='1'>25.000000</item>
-    <item name='grain/pitchVariation.1' type='decimal' priority='3' mixweight='1'>0.000000</item>
-    <item name='grain/rampTime.1' type='integer' priority='3' mixweight='1'>0</item>
-    <item name='grain/rate.1' type='decimal' priority='3' mixweight='1'>1.000000</item>
-    <item name='grain/rateVariation.1' type='decimal' priority='3' mixweight='1'>0.000000</item>
+    <item name='grain/delaylength_ms.1' type='integer' priority='3' mixweight='1'>1</item>
+    <item name='grain/durVariation.1' type='decimal' priority='3' mixweight='1'>7.500000</item>
+    <item name='grain/duration.1' type='decimal' priority='3' mixweight='1'>130.000000</item>
+    <item name='grain/pitch.1' type='integer' priority='3' mixweight='1'>1</item>
+    <item name='grain/pitchVariation.1' type='decimal' priority='3' mixweight='1'>0.020000</item>
+    <item name='grain/position.1' type='decimal' priority='3' mixweight='1'>1.000000</item>
+    <item name='grain/rampTime.1' type='integer' priority='3' mixweight='1'>1</item>
+    <item name='grain/rate.1' type='decimal' priority='3' mixweight='1'>121.000000</item>
+    <item name='grain/rateVariation.1' type='decimal' priority='3' mixweight='1'>1.100000</item>
     <item name='numVoices' type='integer' priority='1' mixweight='1'>1</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
