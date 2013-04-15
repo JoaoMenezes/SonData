@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 654.0, 669.0 ],
+		"rect" : [ 608.0, 61.0, 654.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -35,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "signal", "signal", "signal" ],
-					"patching_rect" : [ 279.666656, 160.0, 300.0, 105.0 ],
+					"patching_rect" : [ 151.833328, 120.0, 300.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
@@ -77,7 +78,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 30.0, 280.0, 456.0, 150.0 ],
+					"patching_rect" : [ 29.999994, 280.0, 450.0, 140.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 450.0, 140.0 ]
 				}
 
@@ -94,8 +95,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 686.0, 75.0, 443.0, 449.0 ],
@@ -117,7 +119,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -224,7 +225,7 @@
 					"destination" : [ "obj-10", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 476.5, 428.5, 398.5, 428.5 ],
+					"midpoints" : [ 470.5, 428.5, 398.5, 428.5 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -241,142 +242,128 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/help",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.son.granular~.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData_alpha/Sound Synthesis/jmod.son.granular~",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Sound Synthesis/jmod.son.granular~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameter.array.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameter.array.instance.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameter.array",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.granular~.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData_alpha/Sound Synthesis/jmod.son.granular~",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Sound Synthesis/jmod.son.granular~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sd_granular.maxpat",
-				"bootpath" : "/Users/joaomenezes/Documents/SonData_alpha/Sound Synthesis/jmod.son.granular~",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Sound Synthesis/jmod.son.granular~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.output~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/output~",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/output~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/javascript",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/javascript",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.samplePlayer~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/samplePlayer~",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/samplePlayer~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/samplePlayer~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/samplePlayer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sampleplayer~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/samplePlayer~",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/samplePlayer~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/samplePlayer~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/samplePlayer~",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfmodes.pct",
-				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/picts",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.pct",
-				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/picts",
-				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
