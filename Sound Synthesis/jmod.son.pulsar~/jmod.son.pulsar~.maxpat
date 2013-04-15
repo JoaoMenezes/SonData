@@ -333,7 +333,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -352,6 +352,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -361,8 +362,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.833313, 174.5, 209.0, 17.0 ],
-									"text" : "append all voices, append <separator>"
+									"patching_rect" : [ 147.833313, 174.5, 108.0, 17.0 ],
+									"text" : "append 0-all voices"
 								}
 
 							}
@@ -527,12 +528,12 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "choose voice to set parameters",
+					"annotation" : "choose index of desired target voice",
 					"arrowframe" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"items" : [ "0-all", "voices", ",", 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10 ],
+					"items" : [ "all", "voices", ",", "<separator>", ",", 1 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -771,7 +772,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 154.0, 261.0, 266.0, 17.0 ],
-					"text" : "/allocVoice 1"
+					"text" : "/view/highlight none"
 				}
 
 			}
