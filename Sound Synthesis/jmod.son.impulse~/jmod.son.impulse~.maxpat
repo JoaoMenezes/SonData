@@ -34,11 +34,10 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 900.0, 34.0, 43.0 ],
+					"patching_rect" : [ 426.0, 846.0, 66.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 112.5, 65.0, 19.0 ],
 					"text" : "Period(ms)"
@@ -56,20 +55,6 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 519.5, 425.0, 32.5, 19.0 ],
 					"text" : "t l b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-57",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.5, 630.0, 50.0, 17.0 ],
-					"text" : "set 2"
 				}
 
 			}
@@ -685,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 384.0, 767.5, 24.0, 19.0 ],
+					"patching_rect" : [ 449.0, 721.0, 24.0, 19.0 ],
 					"text" : "t 1"
 				}
 
@@ -700,7 +685,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 384.0, 750.5, 58.0, 17.0 ],
+					"patching_rect" : [ 449.0, 704.0, 58.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 60.5, 48.0, 19.0 ],
 					"text" : ""
@@ -717,7 +702,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.0, 345.0, 405.0, 17.0 ],
-					"text" : "/preset/write"
+					"text" : "/view/highlight \"0\""
 				}
 
 			}
@@ -727,11 +712,10 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-48",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 817.5, 34.0, 43.0 ],
+					"patching_rect" : [ 377.5, 796.5, 71.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 88.0, 65.0, 19.0 ],
 					"text" : "Pulse Train"
@@ -748,7 +732,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 434.0, 892.0, 50.0, 19.0 ],
+					"patching_rect" : [ 494.0, 846.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 112.5, 50.0, 19.0 ]
 				}
@@ -764,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.0, 886.0, 533.5, 43.0 ],
+					"patching_rect" : [ 494.0, 865.0, 533.5, 43.0 ],
 					"text" : "jcom.parameter.array 1 impulse/period @type integer @repetitions/allow 0 @range/bounds 1. 10000. @range/clipmode low @ramp/drive scheduler @description \"set pulse train period in miliseconds\" @priority 3"
 				}
 
@@ -777,7 +761,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 449.0, 817.5, 20.0, 20.0 ],
+					"patching_rect" : [ 449.0, 796.5, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 88.0, 19.0, 19.0 ]
 				}
@@ -793,7 +777,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.0, 812.0, 533.5, 31.0 ],
+					"patching_rect" : [ 494.0, 791.0, 533.5, 31.0 ],
 					"text" : "jcom.parameter.array 1 impulse/train @type boolean @repetitions/allow 0 @ramp/drive scheduler @description \"Activate pulse train at regular intervals\" @priority 3"
 				}
 
@@ -821,7 +805,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1037.0, 390.0, 59.0, 19.0 ],
+					"patching_rect" : [ 1008.5, 395.0, 59.0, 19.0 ],
 					"text" : "jcom.thru"
 				}
 
@@ -849,7 +833,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.5, 719.0, 105.0, 19.0 ],
+					"patching_rect" : [ 507.0, 704.0, 105.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 60.5, 45.0, 19.0 ],
 					"text" : "Trigger"
@@ -866,7 +850,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 743.5, 578.5, 31.0 ],
+					"patching_rect" : [ 449.0, 740.0, 578.5, 31.0 ],
 					"text" : "jcom.parameter.array 1 impulse/trigger @type integer @repetitions/allow 1 @range/bounds 1. 1. @range/clipmode both @ramp/drive scheduler @description \"send 1 to generate  a single impulse\" @priority 3"
 				}
 
@@ -920,7 +904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 588.5, 480.0, 63.0, 19.0 ],
+					"patching_rect" : [ 578.5, 395.0, 63.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 88.0, 63.0, 19.0 ],
 					"text" : "Wave form"
@@ -936,7 +920,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 536.5, 657.0, 105.0, 19.0 ],
+					"patching_rect" : [ 536.5, 636.0, 105.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 31.299988, 56.0, 19.0 ],
 					"text" : "dur. (ms)"
@@ -954,7 +938,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 480.5, 657.0, 50.0, 19.0 ],
+					"patching_rect" : [ 480.5, 636.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 31.299988, 48.0, 19.0 ]
 				}
@@ -1040,7 +1024,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 519.5, 450.0, 517.0, 43.0 ],
+					"patching_rect" : [ 519.5, 450.0, 508.0, 43.0 ],
 					"text" : "jcom.parameter.array 1 impulse/waveForm @type integer @repetitions/allow 0 @range/bounds 0 6 @range/clipmode both @priority 1 @description \"select  waveform - sine, triangle, saw, noise\" @priority 3"
 				}
 
@@ -1651,7 +1635,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 480.5, 536.5, 556.0, 31.0 ],
+					"patching_rect" : [ 480.5, 536.5, 547.0, 31.0 ],
 					"text" : "jcom.parameter.array 1 impulse/frequency @repetitions/allow 0 @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @description \"Set frequency\" @priority 3",
 					"varname" : "hue_angle"
 				}
@@ -1770,7 +1754,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 480.5, 681.0, 547.0, 31.0 ],
+					"patching_rect" : [ 480.5, 660.0, 547.0, 31.0 ],
 					"text" : "jcom.parameter.array 1 impulse/duration @type decimal @range/bounds 0. 10000. @range/clipmode low @ramp/drive scheduler @priority 2 @description \"set impulse duration in miliseconds\" @priority 3",
 					"varname" : "period"
 				}
@@ -1802,7 +1786,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/impulse"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -2117,7 +2101,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 706.0, 414.0, 1046.5, 414.0 ],
+					"midpoints" : [ 706.0, 414.0, 1018.0, 414.0 ],
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -2162,15 +2146,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
@@ -2270,7 +2245,7 @@
 					"destination" : [ "obj-29", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1027.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1018.0, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2281,7 +2256,7 @@
 					"destination" : [ "obj-59", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1163.5, 479.0, 1027.0, 479.0 ],
+					"midpoints" : [ 1163.5, 479.0, 1018.0, 479.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2352,6 +2327,119 @@
 					"source" : [ "obj-94", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.parameter.array.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameter.array.instance.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameter.array",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.son.impulse~.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Sound Synthesis/jmod.son.impulse~",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sd_impulse.maxpat",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Sound Synthesis/jmod.son.impulse~",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.metro.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/metro",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/metro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.meter_receive.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameterCreate.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.meter~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
