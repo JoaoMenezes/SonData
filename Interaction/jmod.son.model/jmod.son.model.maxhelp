@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 1220.0, 746.0 ],
+		"rect" : [ 177.0, 44.0, 1220.0, 746.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +29,42 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 835.0, 100.0, 43.0, 17.0 ],
+					"text" : "import"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"description" : "fmat",
+					"editor_interface" : "matrix",
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
+					"ftm_scope" : 1,
+					"id" : "obj-2",
+					"maxclass" : "ftm.object",
+					"name" : "f",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 835.0, 125.0, 53.183594, 18.0 ],
+					"persistence" : 0,
+					"presentation_rect" : [ 835.0, 125.0, 53.183594, 18.0 ],
+					"scope" : 0,
+					"text" : "f"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"border" : 0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -42,7 +79,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 175.0, 167.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 195.9375, 167.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -63,7 +99,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 175.0, 187.0, 125.0, 55.0 ],
-					"presentation_rect" : [ 195.9375, 187.0, 0.0, 0.0 ],
 					"text" : "Set mass positions and build the model"
 				}
 
@@ -84,7 +119,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.9375, 167.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 96.875, 194.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -105,7 +139,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.9375, 187.0, 119.0625, 55.0 ],
-					"presentation_rect" : [ 96.875, 214.0, 0.0, 0.0 ],
 					"text" : "Turn module on. Set datased ID."
 				}
 
@@ -176,7 +209,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"ftm_objref_conv" : 0,
-					"ftm_scope" : 1,
+					"ftm_scope" : 0,
 					"id" : "obj-20",
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
@@ -417,8 +450,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 686.0, 75.0, 443.0, 449.0 ],
@@ -589,6 +623,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -610,127 +653,134 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.preset_params.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/documentation/jamoma-help",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Aquisition and Storage/jmod.son.table",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
+				"patcherrelativepath" : "../../_Aquisition and Storage/jmod.son.table",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.table.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Aquisition and Storage/jmod.son.table",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Aquisition and Storage/jmod.son.table",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
+				"patcherrelativepath" : "../../_Aquisition and Storage/jmod.son.table",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.son.model.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.model.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mass.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getOneAttribute.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xyz.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "columns.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "column.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scale.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData/SonData_/Interaction/jmod.son.model",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.model",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -775,6 +825,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ftm.editor.mxo",
 				"type" : "iLaX"
 			}
@@ -792,10 +846,6 @@
 			}
 , 			{
 				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
