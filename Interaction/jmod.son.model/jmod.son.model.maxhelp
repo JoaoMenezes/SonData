@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 177.0, 44.0, 1220.0, 746.0 ],
+		"rect" : [ 527.0, 61.0, 1246.0, 620.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"linecount" : 7,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 55.0, 565.0, 36.0, 90.0 ],
+					"text" : "/massPositions 23 nan nan nan"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -59,7 +74,7 @@
 					"persistence" : 0,
 					"presentation_rect" : [ 835.0, 125.0, 53.183594, 18.0 ],
 					"scope" : 0,
-					"text" : "f"
+					"text" : "fmat"
 				}
 
 			}
@@ -290,12 +305,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 160.8125, 620.0, 141.625, 18.0 ],
-					"text" : "-4.248236 5.567773 -3.6"
+					"patching_rect" : [ 160.8125, 620.0, 47.625, 45.0 ],
+					"text" : "nan nan nan"
 				}
 
 			}
@@ -365,7 +381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 311.25, 560.0, 141.625, 18.0 ],
-					"text" : "0. -0. -0."
+					"text" : "nan nan nan"
 				}
 
 			}
@@ -434,7 +450,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 1220.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 1282.0, 70.0 ]
 				}
 
 			}
@@ -646,6 +662,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 19.5, 498.0, 144.25, 498.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -862,6 +887,10 @@
 			}
 , 			{
 				"name" : "mnm.minmax.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.print.mxo",
 				"type" : "iLaX"
 			}
 , 			{
