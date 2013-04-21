@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 571.0, 44.0, 827.0, 806.0 ],
+		"rect" : [ 528.0, 44.0, 827.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,253 +30,19 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
-					"fontsize" : 18.632689,
-					"id" : "obj-24",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
-						}
-,
-						"rect" : [ 50.0, 94.0, 641.0, 468.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-3",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 20.0, 550.0, 74.0 ],
-									"text" : "Here, the returned data corresponds to each row of the myDataSet. These, are contained in jmod.son.table /myTable.\n\nMore precisely, Instead of getting the points position, in this way, you can get all the dimensions of the index(s) being brushed"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"frgb" : 0.0,
-									"id" : "obj-16",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 161.75, 106.0, 118.5, 67.0 ],
-									"text" : "> $myDataSet corresponds to the dataSet ID in jmod.son.table /myTable",
-									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 4.0,
-									"id" : "obj-13",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 196.0, 299.858154, 9.0 ],
-									"text" : "5781470. 1837402. 2863932. 4311052. 3801467. 4183958. 2028999. 3216172. 4147601. 5536176."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.358154, 154.0, 43.0, 19.0 ],
-									"text" : "thresh"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 29.358154, 85.0, 32.5, 19.0 ],
-									"text" : "- 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.358154, 60.0, 27.0, 19.0 ],
-									"text" : "iter"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.358154, 130.0, 46.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"ftm_objref_conv" : 0,
-										"ftm_scope" : 1
-									}
-,
-									"text" : "ftm.list"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"#init" : "",
-									"#loadbang" : 0,
-									"#triggerall" : 0,
-									"#untuple" : 0,
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"ftm_objref_conv" : 0,
-									"ftm_scope" : 0,
-									"id" : "obj-12",
-									"maxclass" : "ftm.mess",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.358154, 110.0, 129.383789, 17.0 ],
-									"presentation_rect" : [ 29.358154, 110.0, 129.383789, 17.0 ],
-									"text" : [ "_($myDataSet rowref $1)" ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-23",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.358154, 20.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 38.858154, 188.887985, 310.358154, 188.887985 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 38.858154, 151.0, 38.858154, 151.0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 130.0, 594.0, 150.0, 29.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 385.0, 469.0, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"ftm_objref_conv" : 0,
+						"ftm_scope" : 1
 					}
 ,
-					"text" : "p getRowData"
+					"text" : "ftm.list"
 				}
 
 			}
@@ -305,8 +71,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 122.0, 608.0, 31.0 ],
-					"text" : "As in the other Interaction modules, you choose the name of the jmod.son.table containing the desired dataset. \nIn this case, it is the /myTable module. Afterwards, you select the columns that you want to plot."
+					"patching_rect" : [ 24.0, 122.0, 564.0, 31.0 ],
+					"text" : "As all the Interaction modules, you choose the name of the jmod.son.table containing the desired dataset. \nIn this case, it is the /myTable module. Afterwards, you select the columns that you want to plot."
 				}
 
 			}
@@ -336,7 +102,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 578.5, 95.0, 188.0, 18.0 ],
+					"patching_rect" : [ 579.5, 93.0, 188.0, 18.0 ],
 					"text" : "sonification Hanbook - chapter 11",
 					"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 				}
@@ -353,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.0, 600.0, 245.0, 38.0 ],
+					"patching_rect" : [ 411.0, 620.0, 245.0, 38.0 ],
 					"text" : "LCD's position (x.y) of selected points\n"
 				}
 
@@ -405,12 +171,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 7.605376,
 					"id" : "obj-37",
+					"linecount" : 49,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 645.0, 319.0, 14.0 ],
-					"text" : "202. 40.241947 71.78598 205. 58.350826 194.347397"
+					"patching_rect" : [ 374.0, 665.0, 319.0, 457.0 ],
+					"text" : "36. 328.455688 211.270142 74. 385.303833 179.07666 95. 277.924103 239.439545 123. 328.455688 146.883087 92. 296.873474 108.653282 104. 252.658264 130.786346 118. 296.873474 126.762161 119. 290.557037 160.967789 16. 277.924103 158.955643 13. 322.139221 175.052475 59. 258.974731 217.306473 41. 353.721527 193.16127 105. 309.506317 158.955643 97. 309.506317 213.282288 1. 265.291199 193.16127 7. 284.24057 199.197586 52. 240.02536 235.415359 12. 284.24057 217.306473 132. 240.02536 181.088715 112. 334.772156 203.221771 135. 334.772156 120.725838 84. 208.443054 173.040344 15. 360.037994 185.1129 32. 322.139221 213.282288 64. 322.139221 191.149216 75. 303.19 160.967789 146. 385.303833 199.197586 100. 271.607635 209.258102 136. 277.924103 175.052475 63. 315.822784 199.197586 46. 265.291199 158.955643 27. 258.974731 183.1 62. 227.392441 132.798401 133. 303.19 146.883087 6. 252.658264 112.677467 29. 252.658264 213.282288 89. 252.658264 152.919418 122. 208.443054 199.197586 45. 366.354462 152.919418 127. 233.708893 158.955643 49. 221.075974 181.088715 22. 240.02536 193.16127 19. 341.088623 203.221771 55. 258.974731 179.07666 113. 277.924103 169.016159 125. 227.392441 116.701653 78. 227.392441 132.798401 117. 233.708893 160.967789 215. 233.708893 96.580635 37. 303.19 171.028198 8. 309.506317 189.137085 54. 341.088623 150.907272 53. 315.822784 152.919418 26. 221.075974 112.677467 68. 202.126602 146.883087 17. 290.557037 158.955643 96. 309.506317 173.040344 139. 271.607635 120.725838 66. 258.974731 124.75 30. 284.24057 199.197586 111. 322.139221 313.887115 142. 208.443054 104.629097 115. 246.341812 183.1 31. 347.40506 158.955643 90. 277.924103 142.858902 99. 347.40506 132.798401 35. 328.455688 235.415359 88. 360.037994 227.366989 11. 258.974731 74.447571 79. 271.607635 199.197586 102. 322.139221 229.379028 18. 309.506317 124.75 196. 366.354462 102.616959 130. 227.392441 124.75 57. 176.860764 169.016159 108. 265.291199 267.608917 114. 284.24057 130.786346 138. 391.62027 144.870956 24. 233.708893 142.858902 40. 221.075974 201.209732 4. 277.924103 96.580635 98. 284.24057 158.955643 210. 341.088623 92.55645 134. 296.873474 203.221771 91. 252.658264 181.088715 65. 328.455688 175.052475 14. 296.873474 152.919418 147. 309.506317 140.846771 82. 164.227844 150.907272 103. 303.19 221.330658 131. 284.24057 116.701653 186. 378.987366 36.217762 47. 277.924103 191.149216 60. 284.24057 164.991974 101. 271.607635 164.991974 58. 347.40506 199.197586 86. 265.291199 251.512085 28. 322.139221 193.16127 106. 309.506317 152.919418 21. 227.392441 146.883087 44. 353.721527 261.572601 116. 252.658264 164.991974 126. 258.974731 169.016159 109. 322.139221 221.330658 120. 290.557037 160.967789 34. 157.911392 152.919418 23. 277.924103 199.197586 94. 208.443054 162.98 5. 252.658264 136.822586 143. 296.873474 120.725838 69. 303.19 213.282288 3. 391.62027 249.5 202. 480.05072 40.241947 20. 315.822784 132.798401 148. 290.557037 229.379028 179. 499. 438.637115 140. 271.607635 132.798401 48. 347.40506 126.762161 149. 246.341812 112.677467 61. 240.02536 152.919418 77. 341.088623 249.5 87. 341.088623 219.318619 71. 195.810135 179.07666 73. 429.519043 185.1129 129. 410.569672 191.149216 39. 410.569672 181.088715 209. 435.83548 28.16939"
 				}
 
 			}
@@ -472,7 +239,7 @@
 					"patching_rect" : [ 385.0, 503.0, 208.369141, 81.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 300.0 ],
-					"size" : 2
+					"size" : 127
 				}
 
 			}
@@ -512,12 +279,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 655.0, 307.0, 17.0 ],
-					"text" : "202. 205."
+					"patching_rect" : [ 38.0, 600.0, 307.0, 126.0 ],
+					"text" : "36. 74. 95. 123. 92. 104. 118. 119. 16. 13. 59. 41. 105. 97. 1. 7. 52. 12. 132. 112. 135. 84. 15. 32. 64. 75. 146. 100. 136. 63. 46. 27. 62. 133. 6. 29. 89. 122. 45. 127. 49. 22. 19. 55. 113. 125. 78. 117. 0. 37. 8. 54. 53. 26. 68. 17. 96. 139. 66. 30. 111. 142. 115. 31. 90. 99. 35. 88. 11. 79. 102. 18. 196. 130. 57. 108. 114. 138. 24. 40. 4. 98. 210. 134. 91. 65. 14. 147. 82. 103. 131. 186. 47. 60. 101. 58. 86. 28. 106. 21. 44. 116. 126. 109. 120. 34. 23. 94. 5. 143. 69. 3. 202. 20. 148. 179. 140. 48. 149. 61. 77. 87. 71. 73. 129. 39. 209."
 				}
 
 			}
@@ -1024,7 +792,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 80.0, 595.0, 31.0 ],
-					"text" : "This module allows you to interact with a scatter plot. In this case, you can apply the sonic brushing technique described by Hermann and Hunt  in chapter 11 of the Sonification Handbook, (pag 290). More  here--- >>>"
+					"text" : "This module allows you to interact with a scatter plot. In this case, you can apply the sonic brushing techique described by Hermann and Hunt  in chapter 11 of the Sonification Handbook, (pag 290). More  here--- >>>"
 				}
 
 			}
@@ -1051,7 +819,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.0, 461.0, 192.0, 17.0 ],
-					"text" : "/mousePos 151 262"
+					"text" : "/mousePos 301 331"
 				}
 
 			}
@@ -1086,6 +854,25 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 394.5, 491.0, 683.5, 491.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
@@ -1160,6 +947,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1169,39 +965,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 394.5, 491.0, 683.5, 491.0 ],
-					"source" : [ "obj-61", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-61", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 394.5, 591.5, 353.5, 591.5 ],
-					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 394.5, 589.0, 139.5, 589.0 ],
+					"midpoints" : [ 394.5, 591.5, 335.5, 591.5 ],
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1232,14 +999,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.son.brush.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.brush.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1247,34 +1014,34 @@
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getModuleNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sd_sonicbrush_plot.maxpat",
-				"bootpath" : "/Users/JoaoMenezes/github/local/SonData/Interaction/jmod.son.brush",
+				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Interaction/jmod.son.brush",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1282,49 +1049,49 @@
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.son.table.maxpat",
 				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
+				"patcherrelativepath" : "../../_Aquisition and Storage/jmod.son.table",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.son.table.maxpat",
 				"bootpath" : "/Users/JoaoMenezes/Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
-				"patcherrelativepath" : "../../../../../Documents/_work/Max/SonData_Dev/_SonData/_Aquisition and Storage/jmod.son.table",
+				"patcherrelativepath" : "../../_Aquisition and Storage/jmod.son.table",
 				"type" : "JSON",
 				"implicit" : 1
 			}
