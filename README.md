@@ -44,6 +44,4 @@ http://redmine.jamoma.org/projects/sonification-toolbox
 
 Any questions, please mail me to joaommenezes@gmail.com (insert [SonData] in the subject)
 
-
-
-(for more information visit http://creativecommons.org/licenses/by-nc-sa/3.0/)
+© João Menezes
