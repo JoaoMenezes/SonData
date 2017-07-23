@@ -10,8 +10,7 @@ Sondata is free software: you can redistribute it and/or modify
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
@@ -29,7 +28,7 @@ VERSION REQUIREMENTS:
 This version requires Max 6.0 or later (***) .
 
 (***) Version 6 is required since [jmod.son.model] is built with [jit.phys] objects. This means
-that you can use the rest of SonData modules without problem.
+that you can use the rest of SonData modules without a problem.
 
 Note: [Jmod.son.pulsar~] uses Gen~.
 
@@ -42,6 +41,6 @@ Resonators~ (CNMAT) - http://cnmat.berkeley.edu/patch/4019
 
 http://redmine.jamoma.org/projects/sonification-toolbox
 
-Any questions, please mail me to joaommenezes@gmail.com (insert [SonData] in the subject)
+Any questions, please email me to joaommenezes@gmail.com (insert [SonData] in the subject)
 
 © João Menezes
